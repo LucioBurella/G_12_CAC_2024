@@ -9,13 +9,13 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 
 ## Capturas de pantalla
 
-- maquetado y ddimensionado de formulario login paso 1
+- maquetado y dimensionado de formulario login paso 1  
 ![Captura de pantalla 1](./img/maqueta%20login.png)
-- maquetado y ddimensionado de formulario login paso 2 
+- maquetado y dimensionado de formulario login paso 2   
 ![Captura de pantalla 2](./img/maqueta%20login2.png)
-- maquetado y ddimensionado de formulario login paso 3
+- maquetado y dimensionado de formulario login paso 3  
 ![Captura de pantalla 1](./img/maqueta%20login3.png)
-- ajuste y terminacion sin tema 
+- ajuste y terminacion sin tema   
 ![Captura de pantalla 2](./img/maqueta%20login4.png)
 
 ## Tecnologías utilizadas
