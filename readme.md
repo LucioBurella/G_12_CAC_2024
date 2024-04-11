@@ -1,13 +1,30 @@
 # Proyecto de página para tienda de ropa
 
 
-## Integrantes del grupo
+## Integrantes del grupo 12 comision 24255
 - Mario Gonzalez
+- Lucio
+- Alex
+- Leo
+- Garay
 
 ## Descripción
-Este proyecto consiste en el desarrollo de una página web para una tienda de ropa. La página estará diseñada para mostrar una variedad de productos de moda y facilitar la experiencia de compra para los usuarios.
 
-## Capturas de pantalla
+Este proyecto consiste en el desarrollo de una página web para una tienda de ropa. La página estará diseñada para mostrar una variedad de productos de moda y facilitar la experiencia de compra para los usuarios. El sistema venderá ropa en línea y contará con un login para entrar y comprar, así como un formulario CRUD para la administración de los elementos que se venden en esta página.
+
+## Pagina WEB
+
+
+
+
+## Tecnologías utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- VSCODE Editor de codigo
+- GitHub alojamiento del repositorio y versionador
+
+## Capturas de pantalla del proceso de desarrollo login
 
 - maquetado y dimensionado de formulario login paso 1  
 ![Captura de pantalla 1](./img/maqueta%20login.png)
@@ -18,10 +35,6 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 - ajuste y terminacion sin tema   
 ![Captura de pantalla 2](./img/maqueta%20login4.png)
 
-## Tecnologías utilizadas
-- HTML5
-- CSS3
-- JavaScript
 
 ## Instalación y uso
 1. Clona este repositorio: `git clone https://github.com/LucioBurella/G_12_CAC_2024.git`
@@ -30,3 +43,4 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 
 ## Licencia
 
+Este proyecto es solo con fines educativos. Queda estrictamente prohibida su venta o uso con fines comerciales.
