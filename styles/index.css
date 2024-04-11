@@ -1,3 +1,16 @@
+:root{
+    --color_fondo_formulario: rgba(255,255,255,0.6);
+    --color_fondo_inputs: rgba(255,255,255,0.6);
+    --color_botones: rgba(255,255,255,0.7);
+    --radio_borde_botones: 10px;
+
+
+
+}
+
+
 #body {
     width: 100%;
+    background-color: var(--color_fondo_formulario);
 }
+
