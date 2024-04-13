@@ -1,0 +1,15 @@
+.formulario_crud_contenedor{
+    background-color: var(--color_transparente);
+    background-color: var(--color_fondo_formulario);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 215px;
+    align-content: center;
+    border: 1px solid var(--color_borde_formulario);
+    border-radius: var(--radio_borde_botones);
+    margin: auto;
+    margin-top: 6%;
+
+}
