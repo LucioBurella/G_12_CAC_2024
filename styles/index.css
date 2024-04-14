@@ -1,3 +1,5 @@
+
+
 :root{
     /* --color_fondo_formulario: transparent;  */
     --color_fondo_formulario: rgba(82, 78, 78, 0.9);
@@ -11,8 +13,40 @@
     --color_transparente: transparent;
 }
 
-
 #body {
     width: 100%;
 }
 
+header{
+    display: block;
+    background-color: var(--color_transparente);
+    height: 150px;
+    background-color: brown;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.Titulo_Header{
+
+    text-decoration: underline black;
+    background-color: aqua;
+    height: 60px;
+    width: 30%;
+    margin-left: 350px;
+
+}
+
+.Titulo_H1{
+    text-align: center;
+}
+
+.Lista_Nav{
+    display: flex;
+    background-color: pink;
+    width: 70%;
+    height: 80px;
+    margin-left: 150px;
+    justify-content: space-between;
+    
+}
