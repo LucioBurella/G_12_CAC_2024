@@ -20,8 +20,8 @@
 header{
     display: block;
     background-color: var(--color_transparente);
-    height: 150px;
-    background-color: brown;
+    height: 100px;
+    background-color: #151e3f;
     margin-left: 200px;
     margin-right: 200px;
     
@@ -43,10 +43,18 @@ header{
 
 .Lista_Nav{
     display: flex;
-    background-color: pink;
-    width: 70%;
+    width: 85%;
     height: 80px;
-    margin-left: 150px;
+    margin-left: 75px;
+    margin-right: 90px;
     justify-content: space-between;
-    
+}
+
+.bottons_nav{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    border: 3px solid #03cc57;
 }
