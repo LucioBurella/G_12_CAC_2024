@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  
+}
+
+footer{
+  width: 1200px;
+  background-color:#95adc6;
+  overflow: hidden;
+}
+
+h3, h4{
+ text-decoration: none;
+ color: rgb(45, 12, 12);
+ padding: 5px;
+}
+/*aca le hago que se muestren en columnas los ul*/
+ul {
+  display: inline-block; /* Muestra los elementos ul en línea */
+  vertical-align: top; /* Alinea los elementos superiormente */
+  box-sizing: border-box; /* Incluye el padding en el ancho total*/
+  width: 380px;  
+}
+
+.social-icons li {
+  display: inline-block; /* Muestra los elementos li en línea */
+  margin-right: 10px; /* Agrega un margen derecho entre los elementos */
+}
+
+.social-icons i{
+  color: rgb(163, 67, 67);
+}
+
+.columna4{
+  padding: 10px 40px;
+  float: right;
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#ec8872
+}
+
+.social-icons a,.a:active{
+  background-color:#eceeef;
+  color:#7eb9e7;
+  font-size:16px;
+  display:inline-block;
+  line-height:34px;
+  width:34px;
+  height:34px;
+  text-align:center;
+  margin-right:10px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+
+
+
+
+
+
