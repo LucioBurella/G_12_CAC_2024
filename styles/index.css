@@ -1,3 +1,5 @@
+
+
 :root{
     /* --color_fondo_formulario: transparent;  */
     --color_fondo_formulario: rgba(82, 78, 78, 0.9);
@@ -11,8 +13,52 @@
     --color_transparente: transparent;
 }
 
-
 #body {
     width: 100%;
 }
 
+header{
+    display: block;
+    background-color: var(--color_transparente);
+    height: 100px;
+    width: 100%;
+    background-color: #151e3f;
+   
+    
+}
+
+.Titulo_Header{
+    text-decoration: underline black;
+    background-color: aqua;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.Lista_Nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.bottons_nav{
+    position: relative;
+    background: #fff;
+    background-color:#060811;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 15px;
+    transition: 0.5s;
+    height: 40px;
+    
+}
+a:hover{
+    background: var(--clr);
+    letter-spacing: 0.25em;
+}
