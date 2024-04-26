@@ -17,7 +17,7 @@
     box-sizing: border-box;/*para que no se vea el borde*/
     text-decoration: none;/*para que no se vea el texto*/
     font-family: 'Roboto', sans-serif;/*fuente*/
-    height: 800px;
+
 }
 
 body {
@@ -27,6 +27,7 @@ body {
     background-attachment: fixed;/*para que se vea la imagen de fondo sea adj*/
     background-position: center;/*imagen de fondo centrada*/
     padding: 0px 0px 0px 0px;
+    height: 800px;
 
 }
 .cuerpo_page {
@@ -157,17 +158,20 @@ body {
     display: flex;
     position: relative;
     background-color: seagreen;
+    background-color: transparent;
     width: 150px;
     height: 20px;
     top: 0%;
 
 }
+
+
 .header .columna_2 .nav_botonera .nav_boton .nav_input{
     display: flex;
     position: relative;
-    background-color: seagreen;
-    width: 150px;
-    height: 20px;
+    background-color: transparent;
+    width: 90%;
+    height: 10px;
     top: 0%;
 
 }
@@ -197,9 +201,9 @@ body {
 
 
 footer{
-    position: flex;
+    position: absolute;
     background-color: blue;
     width: 100%;
-    height: 60px;
+    height: 100px;
     bottom: 0%;
 }
