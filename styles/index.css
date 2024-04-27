@@ -1,13 +1,11 @@
-
-
-:root{
+:root {
     /* --color_fondo_formulario: transparent;  */
     --color_fondo_formulario: rgba(82, 78, 78, 0.9);
     --color_borde_formulario: rgba(26, 24, 24, 0.7);
     --color_fondo_inputs: transparent;
-     /* rgba(241, 221, 221, 0.6); */
+    /* rgba(241, 221, 221, 0.6); */
     --color_borde_botones: transparent;
-     /* rgba(26, 24, 24, 0.7); */
+    /* rgba(26, 24, 24, 0.7); */
     --radio_borde_botones: 10px;
     --grosor_borde_botones: 1px;
     --color_transparente: transparent;
@@ -17,38 +15,33 @@
     width: 100%;
 }
 
-nav{
-    display: flex;
+nav {
     height: 62px;
-    justify-content: space-around;
 }
 
-.Lista_Nav{
+.Lista_Nav {
     display: flex;
     width: 100%;
 }
 
-.bottons_nav{
-    background-color:#060811;
+.bottons_nav {
+    background-color: #060811;
     color: white;
     text-decoration: none;
     padding: 10px 5px;
     transition: 0.5s;
     margin-top: 5px;
     width: 100%;
-    
+    text-align: center;
+
 }
-a:hover{
+
+a:hover {
     background: var(--clr);
     letter-spacing: 0.25em;
     color: #060811;
 }
-.Input_NavBar{
-    width: 30%;
-    transform: translate(120%, -180%);
-    color: #fff;
-   
-}
-.Barra_Color{
+
+.Barra_Color {
     width: 60%;
 }
