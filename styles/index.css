@@ -29,11 +29,10 @@ nav {
     transition: 0.5s;   
 }
 
-    ul {
+    .UL_Diseño {
         display: flex;
         justify-content: space-around;
         width: 100%;
-        padding-left: 500px;
     }
     
 
@@ -65,3 +64,22 @@ ul a:hover {
     color: black;
     width: 100%;
 } */
+
+
+.Carrito_Compras i{
+    display: flex;
+    font-size: 45px;
+   justify-content: start;
+   margin-right: 80px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-color: rgb(61, 98, 211);
+    border-width: 0px 2px 0px 2px;
+}
+
+
+.d-flex{
+height: 40px;
+}
