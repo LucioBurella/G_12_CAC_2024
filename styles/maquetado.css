@@ -62,12 +62,12 @@ body {
 }
 
 
-.productos>* {
+.productos >* {
     border: 1px solid black;
     border-radius: 5px;
     padding: 2px;
     text-align: center;
-    justify-content: space-around;
+
 }
 
 .productos {
@@ -87,6 +87,7 @@ body {
     background-color: aqua;
     background-color: transparent;
 }
+
 
 .prenda_2 {
     grid-area: prenda_2;
@@ -117,7 +118,6 @@ body {
     background-color: aqua;
     background-color: transparent;
 }
-
 
 
 
