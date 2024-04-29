@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+body {
+min-height: 100%;
+}
+
+.tienda_grupo_12 > * {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tienda_grupo_12 {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "cabecera"
+    "navbar"
+    "filtros"
+    "productos"
+    "footer" ;
+
+}
+
+.cabecera {
+    grid-area: cabecera;
+    background-color: aqua;
+}
+.navbar {
+    grid-area: navbar;
+    background-color: brown;
+}
+.filtros {
+    grid-area: filtros;
+    background-color: chartreuse;
+}
+.productos {
+    grid-area: productos;
+    background-color: coral;
+}
+.footer {
+    grid-area: footer;
+    background-color: navy;
+}
