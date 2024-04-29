@@ -24,7 +24,7 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 - VSCODE Editor de codigo
 - GitHub alojamiento del repositorio y versionador
 
-## Capturas de pantalla del proceso de desarrollo login
+## Capturas de pantalla del proceso de desarrollo documento html
 
 - Maquetado y dimensionado de Documento HTML paso 1 
 <br>
@@ -61,6 +61,14 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 
 ![Captura de pantalla 1](./img/Maqueta%2006.png)
 <br>
+
+- Maquetado y dimensionado de Documento HTML paso 7
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2007.png)
+<br>
+
+## Capturas de pantalla del proceso de desarrollo login
 
 
 - maquetado y dimensionado de formulario login paso 1  

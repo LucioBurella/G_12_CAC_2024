@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,11 +7,12 @@
 html {
     height: 100%;
 }
+
 body {
-min-height: 100%;
+    min-height: 100%;
 }
 
-.tienda_grupo_12 > * {
+.tienda_grupo_12>* {
     border: 1px solid black;
     border-radius: 5px;
     padding: 2px;
@@ -22,148 +23,149 @@ min-height: 100%;
     display: grid;
     gap: 10px;
     grid-template-areas:
-    "cabecera"
-    "navbar"
-    "filtros"
-    "productos"
-    "footer" ;
+        "cabecera"
+        "navbar"
+        "filtros"
+        "productos"
+        "footer";
 
 }
 
 .cabecera {
     grid-area: cabecera;
     background-color: aqua;
+    background-color: transparent;
 }
+
 .navbar {
     grid-area: navbar;
     background-color: brown;
+    background-color: transparent;   
 }
+
 .filtros {
     grid-area: filtros;
     background-color: chartreuse;
+    background-color: transparent;
 }
+
 .productos {
     grid-area: productos;
     background-color: coral;
+    background-color: transparent;
 }
+
 .footer {
     grid-area: footer;
     background-color: rgb(26, 128, 0);
+    background-color: transparent;
 }
 
 
- .productos > * {
+.productos >* {
     border: 1px solid black;
     border-radius: 5px;
     padding: 2px;
     text-align: center;
-} 
 
- .productos{
+}
+
+.productos {
     display: grid;
     gap: 2px;
     grid-template-areas:
-    "prenda_1"
-    "prenda_2"
-    "prenda_3"
-    "prenda_4"
-    "prenda_5"
-    "prenda_6" ;
-
+        "prenda_1" 
+        "prenda_2"
+        "prenda_3"
+        "prenda_4"
+        "prenda_5"
+        "prenda_6";
 }
 
 .prenda_1 {
     grid-area: prenda_1;
     background-color: aqua;
+    background-color: transparent;
 }
+
+
 .prenda_2 {
     grid-area: prenda_2;
     background-color: aqua;
+    background-color: transparent;
 }
+
 .prenda_3 {
     grid-area: prenda_3;
     background-color: aqua;
+    background-color: transparent;
 }
+
 .prenda_4 {
     grid-area: prenda_4;
     background-color: aqua;
+    background-color: transparent;
 }
+
 .prenda_5 {
     grid-area: prenda_5;
     background-color: aqua;
+    background-color: transparent;
 }
+
 .prenda_6 {
     grid-area: prenda_6;
     background-color: aqua;
-} 
+    background-color: transparent;
+}
 
 
 
-
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
     .tienda_grupo_12 {
         display: grid;
         gap: 2px;
         grid-template:
-        "cabecera" 30px
-        "navbar" 20px
-        "filtros" 10px
-        "productos" auto
-        "footer" 30px;
-        }
-        /* .productos{
-         display: grid;
-            gap: 2px;
-            grid-template:
-            "prenda_1" 
-            "prenda_2" 
-            "prenda_3"  
-            "prenda_4" 
-            "prenda_5" 
-            "prenda_6"  
-            auto;
-    
-        } */
-
-
-}
-@media only screen and (min-width: 577px){
-    .tienda_grupo_12 {
-        display: grid;
-        gap: 1px;
-        grid-template:
-        "cabecera cabecera"  40px 
-        "navbar   navbar"    30px
-        "filtros  productos" auto
-        "footer   footer"    60px /
-        180px     auto;
-    
+            "cabecera   "30px 
+            "navbar     "20px 
+            "filtros    "10px 
+            "productos  "auto 
+            "footer     "30px;
     }
 
+    .productos {
+        display: grid;
+        gap: 2px;
+        grid-template:
+            "prenda_1"
+            "prenda_2"
+            "prenda_3"
+            "prenda_4"
+            "prenda_5"
+            "prenda_6"
+            auto;
+    }
+}
 
-/* 
+@media only screen and (min-width: 577px) {
     .tienda_grupo_12 {
         display: grid;
         gap: 1px;
         grid-template:
-        "cabecera " auto 
-        "navbar   " auto
-        "filtros  " auto
-        "productos" auto
-        "footer   " auto /
-         auto;
-    
-    } */
+        "cabecera cabecera  "40px 
+        "navbar   navbar    "30px 
+        "filtros  productos "auto
+        "footer   footer    "60px / 
+        180px     auto;
 
+    }
 
-
-
-    .productos{
+    .productos {
         display: grid;
         gap: 5px;
         grid-template:
-        "prenda_1 prenda_2 prenda_3"  180px
-        "prenda_4 prenda_5 prenda_6"  180px /
+        "prenda_1 prenda_2 prenda_3"auto 
+        "prenda_4 prenda_5 prenda_6"auto / 
         auto      auto     auto;
 
     }
