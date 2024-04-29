@@ -81,21 +81,11 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 ![Captura de pantalla 1](./img/maqueta%20login3.png)
 <br>
 
-- maquetado y dimensionado de formulario login paso 4  
+- ajuste y terminacion sin tema  
 <br>
 
 ![Captura de pantalla 1](./img/maqueta%20login4.png)
 <br>
-
-
-- maquetado y dimensionado de formulario login paso 1  
-![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login.png)
-- maquetado y dimensionado de formulario login paso 2   
-![Captura de pantalla 2](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login2.png)
-- maquetado y dimensionado de formulario login paso 3  
-![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login3.png)
-- ajuste y terminacion sin tema   
-![Captura de pantalla 2](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login4.png)
 
 
 ## Instalación y uso
