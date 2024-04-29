@@ -15,7 +15,7 @@ body {
 .tienda_grupo_12>* {
     border: 1px solid black;
     border-radius: 5px;
-    padding: 2px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -62,10 +62,53 @@ body {
 }
 
 
+.cabecera >* {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+.cabecera {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+        "img_cabecera"
+        "cuadro_busqueda"
+        "nombre_usuario"
+        "carrito_compras";
+
+}
+
+.img_cabecera{
+    grid-area: img_cabecera;
+    background-color: green;
+
+}
+.cuadro_busqueda{
+    grid-area: cuadro_busqueda;
+    background-color: yellow;
+}
+
+.nombre_usuario{
+    grid-area: nombre_usuario;
+    background-color: chocolate;
+}
+
+.carrito_compras{
+    grid-area: carrito_compras;
+    background-color: oldlace
+}
+
+
+
+
+
 .productos >* {
     border: 1px solid black;
     border-radius: 5px;
-    padding: 2px;
+    padding: 1px;
     text-align: center;
 
 }
@@ -124,7 +167,7 @@ body {
 @media only screen and (max-width: 576px) {
     .tienda_grupo_12 {
         display: grid;
-        gap: 2px;
+        gap: 1px;
         grid-template:
             "cabecera   "30px 
             "navbar     "20px 
@@ -135,7 +178,7 @@ body {
 
     .productos {
         display: grid;
-        gap: 2px;
+        gap: 1px;
         grid-template:
             "prenda_1"
             "prenda_2"
@@ -159,10 +202,20 @@ body {
         180px     auto;
 
     }
+    .cabecera{
+        display: grid;
+        gap: 2px;
+        grid-template:
+        "img_cabecera cuadro_busqueda nombre_usuario carrito_compras" auto /
+        15%           auto            15%           10%;
+ 
+
+
+    }
 
     .productos {
         display: grid;
-        gap: 5px;
+        gap: 2px;
         grid-template:
         "prenda_1 prenda_2 prenda_3"auto 
         "prenda_4 prenda_5 prenda_6"auto / 
