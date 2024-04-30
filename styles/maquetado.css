@@ -248,6 +248,119 @@ body {
 
 
 
+
+.prenda_4 >* {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+.prenda_4 {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+    "tipo_prenda_4" 
+    "tipo_descripcion_4"
+    "tipo_precio_4"
+    "tipo_boton_comprar_4"
+    "tipo_boton_favorito_4";
+}
+.tipo_prenda_4{
+    grid-area: tipo_prenda_4;
+    background-color:blueviolet;
+}
+.tipo_descripcion_4{
+    grid-area: tipo_descripcion_4;
+    background-color:darksalmon;
+}
+.tipo_precio_4{
+    grid-area: tipo_precio_4;
+    background-color:darkolivegreen;
+}
+.tipo_boton_comprar_4{
+    grid-area: tipo_boton_comprar_4;
+    background-color: gold;
+}
+.tipo_boton_favorito_4{
+    grid-area: tipo_boton_favorito_4;
+    background-color:tomato; 
+} 
+
+.prenda_5 >* {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+.prenda_5 {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+    "tipo_prenda_5" 
+    "tipo_descripcion_5"
+    "tipo_precio_5"
+    "tipo_boton_comprar_5"
+    "tipo_boton_favorito_5";
+}
+.tipo_prenda_5{
+    grid-area: tipo_prenda_5;
+    background-color:blueviolet;
+}
+.tipo_descripcion_5{
+    grid-area: tipo_descripcion_5;
+    background-color:darksalmon;
+}
+.tipo_precio_5{
+    grid-area: tipo_precio_5;
+    background-color:darkolivegreen;
+}
+.tipo_boton_comprar_5{
+    grid-area: tipo_boton_comprar_5;
+    background-color: gold;
+}
+.tipo_boton_favorito_5{
+    grid-area: tipo_boton_favorito_5;
+    background-color:tomato; 
+} 
+.prenda_6 >* {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+.prenda_6 {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+    "tipo_prenda_6" 
+    "tipo_descripcion_6"
+    "tipo_precio_6"
+    "tipo_boton_comprar_6"
+    "tipo_boton_favorito_6";
+}
+.tipo_prenda_6{
+    grid-area: tipo_prenda_6;
+    background-color:blueviolet;
+}
+.tipo_descripcion_6{
+    grid-area: tipo_descripcion_6;
+    background-color:darksalmon;
+}
+.tipo_precio_6{
+    grid-area: tipo_precio_6;
+    background-color:darkolivegreen;
+}
+.tipo_boton_comprar_6{
+    grid-area: tipo_boton_comprar_6;
+    background-color: gold;
+}
+.tipo_boton_favorito_6{
+    grid-area: tipo_boton_favorito_6;
+    background-color:tomato; 
+} 
+
+
+
 @media only screen and (max-width: 576px) {
     .tienda_grupo_12 {
         display: grid;
