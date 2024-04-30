@@ -30,7 +30,6 @@ body {
         "footer";
 
 }
-
 .cabecera {
     grid-area: cabecera;
     background-color: aqua;
@@ -91,6 +90,7 @@ body {
     grid-area: carrito_compras;
     background-color: oldlace
 }
+
 .productos >* {
     border: 1px solid black;
     border-radius: 5px;
@@ -157,7 +157,7 @@ body {
     "tipo_boton_comprar_1"
     "tipo_boton_favorito_1";
 }
- .tipo_prenda_1{
+.tipo_prenda_1{
     grid-area: tipo_prenda_1;
     background-color:blueviolet;
 }
@@ -239,4 +239,4 @@ body {
         "tipo_boton_comprar_1 tipo_boton_favorito_1" auto /
         auto 70px;
     }
- }
+}
