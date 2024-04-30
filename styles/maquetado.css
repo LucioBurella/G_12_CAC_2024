@@ -3,11 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     height: 100%;
 }
-
 body {
     min-height: 100%;
 }
@@ -28,32 +26,27 @@ body {
         "filtros"
         "productos"
         "footer";
-
 }
 .cabecera {
     grid-area: cabecera;
     background-color: aqua;
     /* background-color: transparent; */
 }
-
 .navbar {
     grid-area: navbar;
     background-color: brown;
     /* background-color: transparent;    */
 }
-
 .filtros {
     grid-area: filtros;
     background-color: chartreuse;
     /* background-color: transparent; */
 }
-
 .productos {
     grid-area: productos;
     background-color: coral;
     /* background-color: transparent; */
 }
-
 .footer {
     grid-area: footer;
     background-color: rgb(26, 128, 0);
@@ -90,7 +83,6 @@ body {
     grid-area: carrito_compras;
     background-color: oldlace
 }
-
 .productos >* {
     border: 1px solid black;
     border-radius: 5px;
@@ -112,7 +104,7 @@ body {
     grid-area: prenda_1;
     margin-top: 5%;
     background-color:crimson;
-    /* background-color: transparent; */
+    background-color: transparent;
 }
 .prenda_2 {
     grid-area: prenda_2;
@@ -178,6 +170,84 @@ body {
     background-color:tomato; 
 } 
 
+.prenda_2 >* {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+.prenda_2 {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+    "tipo_prenda_2" 
+    "tipo_descripcion_2"
+    "tipo_precio_2"
+    "tipo_boton_comprar_2"
+    "tipo_boton_favorito_2";
+}
+.tipo_prenda_2{
+    grid-area: tipo_prenda_2;
+    background-color:blueviolet;
+}
+.tipo_descripcion_2{
+    grid-area: tipo_descripcion_2;
+    background-color:darksalmon;
+}
+.tipo_precio_2{
+    grid-area: tipo_precio_2;
+    background-color:darkolivegreen;
+}
+.tipo_boton_comprar_2{
+    grid-area: tipo_boton_comprar_2;
+    background-color: gold;
+}
+.tipo_boton_favorito_2{
+    grid-area: tipo_boton_favorito_2;
+    background-color:tomato; 
+} 
+
+.prenda_3 >* {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+.prenda_3 {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+    "tipo_prenda_3" 
+    "tipo_descripcion_3"
+    "tipo_precio_3"
+    "tipo_boton_comprar_3"
+    "tipo_boton_favorito_3";
+}
+.tipo_prenda_3{
+    grid-area: tipo_prenda_3;
+    background-color:blueviolet;
+}
+.tipo_descripcion_3{
+    grid-area: tipo_descripcion_3;
+    background-color:darksalmon;
+}
+.tipo_precio_3{
+    grid-area: tipo_precio_3;
+    background-color:darkolivegreen;
+}
+.tipo_boton_comprar_3{
+    grid-area: tipo_boton_comprar_3;
+    background-color: gold;
+}
+.tipo_boton_favorito_3{
+    grid-area: tipo_boton_favorito_3;
+    background-color:tomato; 
+} 
+
+
+
+
+
 @media only screen and (max-width: 576px) {
     .tienda_grupo_12 {
         display: grid;
@@ -231,12 +301,62 @@ body {
     }
     .prenda_1{
         display: grid;
-        gap: 1px;
+        gap: 5px;
         grid-template:
-        "tipo_prenda_1        tipo_prenda_1         " 240px
+        "tipo_prenda_1        tipo_prenda_1         " 230px
         "tipo_descripcion_1   tipo_descripcion_1    " 40px
         "tipo_precio_1        tipo_precio_1        " auto
         "tipo_boton_comprar_1 tipo_boton_favorito_1" auto /
-        auto 70px;
+        auto 66px;
+    }
+    .prenda_2{
+        display: grid;
+        gap: 5px;
+        grid-template:
+        "tipo_prenda_2        tipo_prenda_2        " 230px
+        "tipo_descripcion_2   tipo_descripcion_2   " 40px
+        "tipo_precio_2        tipo_precio_2        " auto
+        "tipo_boton_comprar_2 tipo_boton_favorito_2" auto /
+        auto 66px;
+    }
+    .prenda_3{
+        display: grid;
+        gap: 5px;
+        grid-template:
+        "tipo_prenda_3        tipo_prenda_3        " 230px
+        "tipo_descripcion_3   tipo_descripcion_3   " 40px
+        "tipo_precio_3        tipo_precio_3        " auto
+        "tipo_boton_comprar_3 tipo_boton_favorito_3" auto /
+        auto 66px;
+    }
+    .prenda_4{
+        display: grid;
+        gap: 5px;
+        grid-template:
+        "tipo_prenda_4        tipo_prenda_4        " 230px
+        "tipo_descripcion_4   tipo_descripcion_4   " 40px
+        "tipo_precio_4        tipo_precio_4        " auto
+        "tipo_boton_comprar_4 tipo_boton_favorito_4" auto /
+        auto 66px;
+    }
+    .prenda_5{
+        display: grid;
+        gap: 5px;
+        grid-template:
+        "tipo_prenda_5        tipo_prenda_5        " 230px
+        "tipo_descripcion_5   tipo_descripcion_5   " 40px
+        "tipo_precio_5        tipo_precio_5        " auto
+        "tipo_boton_comprar_5 tipo_boton_favorito_5" auto /
+        auto 66px;
+    }
+    .prenda_6{
+        display: grid;
+        gap: 5px;
+        grid-template:
+        "tipo_prenda_6        tipo_prenda_6        " 230px
+        "tipo_descripcion_6   tipo_descripcion_6   " 40px
+        "tipo_precio_6        tipo_precio_6        " auto
+        "tipo_boton_comprar_6 tipo_boton_favorito_6" auto /
+        auto 66px;
     }
 }
