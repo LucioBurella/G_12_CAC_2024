@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 :root {
+=======
+:root{
+>>>>>>> 9fd4194685f6fdceb105e5970313bd6cd428e264
     /* --color_fondo_formulario: transparent;  */
     --color_fondo_formulario: rgba(82, 78, 78, 0.9);
     --color_borde_formulario: rgba(26, 24, 24, 0.7);
@@ -11,15 +15,34 @@
     --color_transparente: transparent;
 }
 
-#body {
-    width: 100%;
+* {
+    margin: 0;/*margen en 0*/
+    padding: 0;/*padding en 0*/
+    box-sizing: border-box;/*para que no se vea el borde*/
+    text-decoration: none;/*para que no se vea el texto*/
+    font-family: 'Roboto', sans-serif;/*fuente*/
+
 }
 
+<<<<<<< HEAD
 nav {
     height: 100px;
     
-}
+=======
+body {
+    /*background-image: url(../img/istockphoto-1474251557-612x612.jpg);/*imagen de fondo*/
+    background-size: cover;/*la imagen de fonndo abarca todo/
+    background-repeat: no-repeat;/*no se repita la imagen de fondo*/
+    background-attachment: fixed;/*para que se vea la imagen de fondo sea adj*/
+    background-position: center;/*imagen de fondo centrada*/
+    padding: 0px 0px 0px 0px;
+    height: 800px;
 
+>>>>>>> 9fd4194685f6fdceb105e5970313bd6cd428e264
+}
+.cuerpo_page {
+
+<<<<<<< HEAD
 
 
 .bottons_nav {
@@ -82,4 +105,180 @@ ul a:hover {
 
 .d-flex{
 height: 60px;
+=======
+}
+.header{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: red  ;
+    width: 100%;
+    height: 75px; 
+    padding: 0px 0px 0px 0px;
+}
+.header .columna_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: green ;
+    width: 15%;
+    height: 65px;
+    left: 0.5%;
+    top: 7%;
+    float: left;
+}
+.header .columna_1 .logo_empresa{
+    display: flex;
+    position: relative;
+    background-color: gray;
+    width: 90%;
+    height: 60px;
+    /* left: 1%;
+    top: 0%; */
+    float: left;
+
+}
+.header .columna_2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: orange;
+    width: 73%;
+    height: 63px;
+    left: 2%;
+    top: 8%;
+    float: left;
+
+}
+
+.header .columna_2 .busqueda_usuario{
+    display: flex;
+    position: relative;
+    background-color: pink;
+    width: 98%;
+    height: 28px;
+    left: 1%;
+    top: 1%;
+    float: left;
+}
+.header .columna_2 .busqueda_usuario .cuadro_busqueda{
+    display: flex;
+    position: relative;
+    background-color: yellow ;
+    width: 45%;
+    height: 22px;
+    top: 11%;
+    left: 5%;
+    float: left;
+}
+
+.header .columna_2 .busqueda_usuario .cuadro_busqueda .lupa{
+    display: flex;
+    position: relative;
+    background-color: green;
+    width: 22px;
+    height: 22px;
+    top: 0%;
+    left: 95%;
+}
+
+.header .columna_2 .busqueda_usuario .cuadro_nombre_usuario{
+    display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 25%;
+    height: 22px;
+    top: 11%;
+    left: 6%;
+}
+.header .columna_2 .busqueda_usuario .notificaciones{
+    display: flex;
+    position: relative;
+    background-color: rgba(30, 155, 89, 0.6);
+    width: 22px;
+    height: 22px;
+    top: 0%;
+    left: 91%;
+}
+
+.header .columna_2 .nav_botonera{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cadetblue;
+    width: 98%;
+    height: 30px;
+    top: 6%;
+    left: 1%;
+    float: left;
+}
+
+.header .columna_2 .nav_botonera .nav_menu{
+    display: flex;
+    position: relative;
+    justify-content:right;
+    align-items: end;
+    background-color: blue;
+    width: 98%;
+    height: 28px;
+    top: 0%;
+    left: 0%;
+    float: left;
+}
+
+.header .columna_2 .nav_botonera .nav_boton{
+    display: flex;
+    position: relative;
+    background-color: seagreen;
+    background-color: transparent;
+    width: 150px;
+    height: 20px;
+    top: 0%;
+
+}
+
+
+.header .columna_2 .nav_botonera .nav_boton .nav_input{
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    width: 90%;
+    height: 10px;
+    top: 0%;
+
+}
+
+.header .columna_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: aliceblue;
+    width: 8%;
+    height: 63px;
+    left: 3%;
+    top: 8%;
+}
+.header .columna_3 .carrito_compras{
+    display: flex;
+    position: relative;
+    background-color: rgba(30, 155, 89, 0.6);
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+footer{
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    bottom: 0%;
+>>>>>>> 9fd4194685f6fdceb105e5970313bd6cd428e264
 }

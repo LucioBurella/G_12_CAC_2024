@@ -24,16 +24,88 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 - VSCODE Editor de codigo
 - GitHub alojamiento del repositorio y versionador
 
+## Capturas de pantalla del proceso de desarrollo documento html
+
+- Maquetado y dimensionado de Documento HTML paso 1 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2001.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 2 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2002.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 3 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2003.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 4 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2004.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 5 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2005.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 6
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2006.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 7
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2007.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 8
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2008.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 9
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2009.png)
+<br>
+
 ## Capturas de pantalla del proceso de desarrollo login
 
+
 - maquetado y dimensionado de formulario login paso 1  
-![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login.png)
-- maquetado y dimensionado de formulario login paso 2   
-![Captura de pantalla 2](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login2.png)
+<br>
+
+![Captura de pantalla 1](./img/maqueta%20login.png)
+<br>
+
+- maquetado y dimensionado de formulario login paso 2  
+<br>
+
+![Captura de pantalla 1](./img/maqueta%20login2.png)
+<br>
+
 - maquetado y dimensionado de formulario login paso 3  
-![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login3.png)
-- ajuste y terminacion sin tema   
-![Captura de pantalla 2](https://github.com/LucioBurella/G_12_CAC_2024/blob/Mario/img/maqueta%20login4.png)
+<br>
+
+![Captura de pantalla 1](./img/maqueta%20login3.png)
+<br>
+
+- ajuste y terminacion sin tema  
+<br>
+
+![Captura de pantalla 1](./img/maqueta%20login4.png)
+<br>
 
 
 ## Instalación y uso
