@@ -22,7 +22,7 @@ body {
     gap: 10px;
     grid-template-areas:
         "cabecera"
-        /* "navbar" */
+        "noticias"
         "filtros"
         "productos"
         "footer";
@@ -31,6 +31,11 @@ body {
     grid-area: cabecera;
     background-color: aqua;
     /* background-color: transparent; */
+}
+.noticias{
+    grid-area: noticias;
+    background-color: chartreuse;
+    /* background-color: transparent; */  
 }
 .filtros {
     grid-area: filtros;
@@ -84,18 +89,39 @@ body {
     background-color: brown;
     /* background-color: transparent; */   
 }
-
 .nav_menu{
     display: inline-flex;
     text-decoration: none;
     align-items:flex-start;
 }
-
-
-
-
-
-
+.noticias >* {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.noticias {
+    display: grid;
+    /* gap: 10px; */
+    padding: 10px;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "noticia_1" 
+        "noticia_2"
+        "noticia_3";
+}
+.noticia_1 {
+    grid-area: noticia_1;
+    background-color:crimson;
+}
+.noticia_2 {
+    grid-area: noticia_2;
+    background-color: yellow;
+}
+.noticia_3 {
+    grid-area: noticia_3;
+    background-color:orange;
+}
 
 .productos >* {
     border: 1px solid black;
@@ -258,11 +284,6 @@ body {
     background-color:tomato; 
 } 
 
-
-
-
-
-
 .prenda_4 >* {
     border: 1px solid black;
     border-radius: 2px;
@@ -374,7 +395,6 @@ body {
 } 
 
 
-
 @media only screen and (max-width: 576px) {
     .tienda_grupo_12 {
         display: grid;
@@ -405,6 +425,7 @@ body {
         gap: 1px;
         grid-template:
         "cabecera cabecera  "65px 
+        "noticias noticias  "120px
         "filtros  productos "800px
         "footer   footer    "60px / 
         180px     auto;
@@ -414,8 +435,16 @@ body {
         gap: 2px;
         grid-template:
         "img_cabecera cuadro_busqueda nombre_usuario carrito_compras" 30px 
-        "img_cabecera navbar          navbar         navbar "         30px /
-        15%           auto            15%           10%;
+        "img_cabecera navbar          navbar         carrito_compras "         30px /
+        15%           auto            15%            8%;
+    }
+    .noticias{
+        display: grid;
+        gap: 1px;
+        justify-content: space-evenly;
+        grid-template: 
+        "noticia_1 noticia_2 noticia_3" 100% /
+         30%       30%       30%;
     }
     .productos {
         display: grid;
