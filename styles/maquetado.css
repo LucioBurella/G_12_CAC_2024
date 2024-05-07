@@ -60,7 +60,7 @@ body {
 }
 .cabecera {
     display: grid;
-    gap: 2px;
+    gap: 0px;
     grid-template-areas:
         "img_cabecera"
         "cuadro_busqueda"
@@ -87,12 +87,9 @@ body {
 .navbar {
     grid-area: navbar;
     background-color: brown;
-    /* background-color: transparent; */   
+    /* background-color: transparent; */ 
+    padding: 0px 0px 0px 0px;  
 }
-
-
-
-
 .nav_menu{
     display: inline-flex;
     text-decoration: none;
@@ -100,17 +97,24 @@ body {
     justify-content: space-evenly;
     width: 100%;
 }
-
-.boton_nav{
+.contenedor_botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: flex-end;
     width: 100%;
-    background-color: aqua;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 0px;
-    text-align: center;
-    margin: 0px;
-    
 }
+.boton_nav{
+    width: 98%;
+    background-color:rgba(142, 206, 142, 0.5);
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+    list-style: none;
+    line-height: 20px;
+}
+
 
 
 
