@@ -124,15 +124,14 @@ body {
 }
 
 
-.filtros >* {
+.filtros > * {
     border: 1px solid black;
     border-radius: 5px;
     padding: 0px;
 }
 .filtros {
     display: grid;
-    gap: 10px;
-    /* padding: 20px; */
+    padding: 25px 0px 10px 0px; 
     text-align: center;
     grid-template-areas:
         "filtro_1" 
@@ -503,7 +502,7 @@ body {
 
     .filtros {
         display: grid;
-        gap: 8px;
+        gap: 20px;
         grid-template:
         "filtro_1" 30px
         "filtro_2" 30px
