@@ -547,6 +547,123 @@ body {
 }
 
 
+
+
+
+.footer>* {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+
+.footer {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+        "contacto"
+        "acerca_de"
+        "preguntas_frecuentes"
+        "terminos_condiciones"
+        "copyright";
+}
+
+.contacto{
+    grid-area: contacto;
+    background-color: gold;
+}
+
+.acerca_de{
+    grid-area: acerca_de;
+    background-color: gold;
+
+}
+
+.preguntas_frecuentes{
+    grid-area: preguntas_frecuentes;
+    background-color: gold;
+
+}
+
+.terminos_condiciones{
+    grid-area: terminos_condiciones;
+    background-color: gold;
+
+}
+
+.copyright{
+    grid-area: copyright;
+    background-color: gold;
+
+}
+.contacto > * {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+
+.contacto {
+    display: grid;
+    gap: 1px;
+    grid-template-areas:
+    "red_x"
+    "red_linkedin"
+    "red_instagram"
+    "red_youtube";
+}
+.red_x{
+    grid-area: red_x;
+    background-color: gold;
+}
+
+.red_linkedin{
+    grid-area: red_linkedin;
+    background-color: gold;
+}
+
+.red_instagram{
+    grid-area: red_instagram;
+    background-color: gold;
+}
+
+.red_youtube{
+    grid-area: red_youtube;
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 576px) {
     .tienda_grupo_12 {
         display: grid;
@@ -581,7 +698,7 @@ body {
             "cabecera   cabecera  "90px 
             "noticias   noticias  "140px 
             "filtros    productos "800px 
-            "footer     footer    "60px / 
+            "footer     footer    "350px / 
             180px       auto;
     }
 
@@ -692,4 +809,26 @@ body {
             "tipo_boton_comprar_6   tipo_boton_favorito_6"auto / 
             auto                    66px;
     }
+    .footer{
+        display: grid;
+        gap: 5px;
+        padding: 50px 0px 0px 0px;
+        grid-template:
+            "preguntas_frecuentes      contacto"   60px
+            "terminos_condiciones      acerca_de"  auto
+            "copyright                 copyright"  45px /
+            50%                        auto;
+    
+    }
+    .contacto{
+        display: grid;
+        gap: 5px;
+        justify-content: center;
+        grid-template:
+            "red_x  red_linkedin    red_instagram   red_youtube" auto /
+            10%     10%             10%             10%;
+    
+
+    }
+
 }
