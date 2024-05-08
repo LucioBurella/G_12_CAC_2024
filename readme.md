@@ -17,11 +17,16 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 
 
 
-## Tecnologías utilizadas
+## Tecnologías utilizadas (lenguajes)
+
 - HTML5
 - CSS3
 - JavaScript
+
+## Tecnologías utilizadas (editores de codigo)
+
 - VSCODE Editor de codigo
+- IDX Google (Editor de codigo)
 - GitHub alojamiento del repositorio y versionador
 
 ## Capturas de pantalla del proceso de desarrollo documento html
