@@ -57,42 +57,42 @@ function borra() {
 
 
 
-const inicioButton = document.getElementById("inicio");
-inicioButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de inicio');
-    borra();
-    carga_completa();
-});
-const categoriasButton = document.getElementById("categorias");
-categoriasButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de categorias');
+//const inicioButton = document.getElementById("inicio");
+//inicioButton.addEventListener('click', function() {
+//    console.log('Se ha hecho click en el botón de inicio');
+//    borra();
+//    carga_completa();
+//});
+// const categoriasButton = document.getElementById("categorias");
+// categoriasButton.addEventListener('click', function() {
+//     console.log('Se ha hecho click en el botón de categorias');
 
-});
-const productosButton = document.getElementById("productos");
-productosButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de productos');
+// });
+// const productosButton = document.getElementById("productos");
+// productosButton.addEventListener('click', function() {
+//     console.log('Se ha hecho click en el botón de productos');
 
-});
-const acercaButton = document.getElementById("nosotros");
-acercaButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de acerca');
+// });
+// const acercaButton = document.getElementById("nosotros");
+// acercaButton.addEventListener('click', function() {
+//     console.log('Se ha hecho click en el botón de acerca');
 
-});
-const contactoButton = document.getElementById("contacto");
-contactoButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de contacto');
+// });
+// const contactoButton = document.getElementById("contacto");
+// contactoButton.addEventListener('click', function() {
+//     console.log('Se ha hecho click en el botón de contacto');
 
-});
-const loginButton = document.getElementById("login");
-loginButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de login');
-    borra();
-    carga_registro();
-});
-const adminitradorButton = document.getElementById("administrador");
-    adminitradorButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de administrador');
+// });
+// const loginButton = document.getElementById("login");
+// loginButton.addEventListener('click', function() {
+//     console.log('Se ha hecho click en el botón de login');
+//     borra();
+//     carga_registro();
+// });
+// const adminitradorButton = document.getElementById("administrador");
+//     adminitradorButton.addEventListener('click', function() {
+//     console.log('Se ha hecho click en el botón de administrador');
 
-});
+// });
 
 
