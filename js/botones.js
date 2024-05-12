@@ -22,13 +22,30 @@ const teclas_Programas = (e) => {
                 console.log('Se ha hecho click en el botón de acerca');
             }, 250);
             break;
+        case "contacto":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de contacto');
+            }, 250);
+            break;
+        case "login":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de login');
+            }, 250);
+            break;
+        case "buscar":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de buscar');
+            }, 250);
+            break;
+
+    
     
 
 
 
 	}
 }
-  const inputs = document.querySelectorAll(".btns");
+  const inputs = document.querySelectorAll(".tecla");
 for (let i = 0; i < inputs.length; i++) {
 	inputs[i].addEventListener('click', teclas_Programas);
 }
