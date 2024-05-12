@@ -127,6 +127,13 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 ![Captura de pantalla 1](./img/Maqueta%2016.png)
 <br>
 
+- Maquetado y dimensionado de Documento HTML paso 17 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2017.png)
+<br>
+
+
 ## Capturas de pantalla del proceso de desarrollo login
 
 
