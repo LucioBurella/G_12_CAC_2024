@@ -57,12 +57,12 @@ function borra() {
 
 
 
-const inicioButton = document.getElementById("inicio");
-inicioButton.addEventListener('click', function() {
-    console.log('Se ha hecho click en el botón de inicio');
-    borra();
-    carga_completa();
-});
+//const inicioButton = document.getElementById("inicio");
+//inicioButton.addEventListener('click', function() {
+//    console.log('Se ha hecho click en el botón de inicio');
+//    borra();
+//    carga_completa();
+//});
 const categoriasButton = document.getElementById("categorias");
 categoriasButton.addEventListener('click', function() {
     console.log('Se ha hecho click en el botón de categorias');

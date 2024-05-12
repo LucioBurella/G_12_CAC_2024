@@ -106,7 +106,7 @@ body {
 
 .img_cabecera {
     grid-area: img_cabecera;
-    /*background-color: green;*/
+    /* background-color: green; */
 }
 
 .cuadro_busqueda {
