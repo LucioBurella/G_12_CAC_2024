@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Grupo_12</title>
     <link rel="stylesheet" href="/styles/maquetado.css">
+    <link rel="stylesheet" href="/styles/login.css">
 </head>
 <body class="tienda_grupo_12">
 <header class="cabecera">
@@ -14,15 +15,43 @@
     <section class="carrito_compras">Carrito</section>
     <nav class="navbar">
         <ul class="nav_menu">
-            <li>Inicio</li>
-            <li>Productos</li>
-            <li>Aerca</li>
-            <li>Contacto</li>
-            <li>login</li>
+            <li class="contenedor_botones">
+                <button class="boton_nav">Inicio</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav">Categorias</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav">Productos</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav">Acerca</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav">Contacto</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav">Login</button>
+            </li>
+            <li class="contenedor_botones"style="display: none;">
+                <button class="boton_nav">Administrador</button>
+            </li>
         </ul>
     </nav>
 </header>
-<aside class="filtros">Filtros</aside>
+<section class="noticias">
+    <section class="noticia_1">Noticia 1</section>
+    <section class="noticia_2">Noticia 2</section>
+    <section class="noticia_3">Noticia 3</section>
+</section>
+<aside class="filtros">
+    <section class="filtro_1">Boton filtro 1</section>
+    <section class="filtro_2">Boton filtro 2</section>
+    <section class="filtro_3">Boton filtro 3</section>
+    <section class="filtro_4">Boton filtro 4</section>
+    <section class="filtro_5">Boton filtro 5</section>
+    <section class="filtro_6">Boton filtro 6</section>
+</aside>
 <article class="productos">
     <div class="prenda_1">
         <div class="tipo_prenda_1">Imagen</div>
@@ -67,6 +96,57 @@
         <div class="tipo_boton_favorito_6">Favorito</div>
     </div>
 </article>
-<footer class="footer">Footer</footer>
+
+<dialog class="formulario_login_contenedor" style="display: none;">
+
+
+    <div class="formulario_login_titulo">
+        <h1>Login</h1>
+      </div>
+
+    <div class="formulario_login_user">
+        <input type="text" name="" id="" placeholder="ingrese nombre de usuario" class="input_login">
+    </div>
+
+    <div class="formulario_login_pass">
+        <input type="text" name="" id="" placeholder="ingrese password" class="input_login">
+    </div>
+
+    <div class="formulario_login_botones">
+
+        <div class="formulario_login_boton_aceptar">
+            <button type="button" name="login_aceptar" id="" class="btns">Ingresar</button>
+        </div>
+        <div class="formulario_login_boton_cancelar">
+            <button type="button" name="login_cancelar" id="" class="btns">Cancelar</button>
+        </div>
+    </div>
+
+    <div class="autores">
+        <h3>Grupo 12 CaC</h3>
+    </div>
+
+
+</dialog>
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <section class="preguntas_frecuentes">Preguntas frecuentes</section>
+    <section class="terminos_condiciones">Terminos y condiciones</section>
+    <section class="contacto">
+        <section class="red_x">X</section>
+        <section class="red_linkedin">linkedin</section>
+        <section class="red_instagram">instagram</section>
+        <section class="red_youtube">youtube</section>
+    </section>
+    <section class="acerca_de">Acerca de</section>
+    <section class="copyright">Copyright</section>
+</footer>
 </body>
 </html>
