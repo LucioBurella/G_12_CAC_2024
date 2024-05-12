@@ -1,7 +1,21 @@
+:root{
+        /* --color_fondo_formulario: transparent;  */
+        --color_fondo_formulario: rgba(82, 78, 78, 0.9);
+        --color_borde_formulario: rgba(26, 24, 24, 0.7);
+        --color_fondo_inputs: transparent;
+        /* rgba(241, 221, 221, 0.6); */
+        --color_borde_botones: transparent;
+        /* rgba(26, 24, 24, 0.7); */
+        --radio_borde_botones: 10px;
+        --grosor_borde_botones: 1px;
+        --color_transparente: transparent;
+}
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0;/*margen en 0*/
+    padding: 0;/*padding en 0*/
+    box-sizing: border-box;/*para que no se vea el borde*/
+    text-decoration: none;/*para que no se vea el texto*/
+    font-family: 'Roboto', sans-serif;/*fuente*/
 }
 
 html {
@@ -10,9 +24,17 @@ html {
 
 body {
     min-height: 100%;
+    /*background-image: url(../img/istockphoto-1474251557-612x612.jpg);/*imagen de fondo*/
+    background-size: cover;/*la imagen de fonndo abarca todo/
+    background-repeat: no-repeat;/*no se repita la imagen de fondo*/
+    background-attachment: fixed;/*para que se vea la imagen de fondo sea adj*/
+    background-position: center;/*imagen de fondo centrada*/
+    padding: 0px 0px 0px 0px;
+    height: 800px;
+
 }
 
-.tienda_grupo_12>* {
+.tienda_grupo_12 > * {
     border: 1px solid black;
     border-radius: 1px;
     padding: 0px;
