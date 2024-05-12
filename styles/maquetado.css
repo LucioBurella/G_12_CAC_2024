@@ -4,11 +4,12 @@
         --color_borde_formulario: rgba(26, 24, 24, 0.7);
         --color_fondo_inputs: transparent;
         /* rgba(241, 221, 221, 0.6); */
-        --color_borde_botones: #e8e8e8;;    
+        --color_borde_botones: #e8e8e8;    
         --radio_borde_botones: 10px;
         --grosor_borde_botones: 1px;
         --color_transparente: transparent;
         --color_fondo_produccion: rgba(245, 245, 220, 1);
+        --color_fondo_botones: rgba(197, 197, 145,1);
 }
 * {
     margin: 0;/*margen en 0*/
@@ -129,8 +130,8 @@ body {
 
 .navbar {
     grid-area: navbar;
-    background-color: brown;
-    /* background-color: transparent; */
+    /* background-color: brown; */
+    background-color: transparent;
     padding: 0px 0px 0px 0px;
 }
 
@@ -157,9 +158,10 @@ body {
     width: 98%;
     height: 35px;
     background-color: rgba(142, 206, 142, 0.5);
-    background-color: red;
-    border: 1px solid black;
-    border-radius: 1px;
+    background-color: var(--color_fondo_botones);
+    /* background-color: red; */
+    border: 1px solid transparent;
+    border-radius: 2px;
     padding: 0px 0px 0px 0px;
     text-align: center;
     list-style: none;
@@ -579,17 +581,12 @@ body {
     background-color: tomato;
 }
 
-
-
-
-
 .footer>* {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
 }
-
 .footer {
     display: grid;
     gap: 1px;
@@ -600,22 +597,18 @@ body {
         "terminos_condiciones"
         "copyright";
 }
-
 .contacto{
     grid-area: contacto;
     background-color: gold;
 }
-
 .acerca_de{
     grid-area: acerca_de;
     background-color: gold;
-
 }
 
 .preguntas_frecuentes{
     grid-area: preguntas_frecuentes;
     background-color: gold;
-
 }
 
 .terminos_condiciones{
@@ -626,11 +619,12 @@ body {
 
 .copyright{
     grid-area: copyright;
-    background-color: gold;
+    /* background-color: gold; */
+    background-color: var(--color_fondo_produccion);
 
 }
 .contacto > * {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -741,16 +735,16 @@ body {
         grid-template:
             "img_cabecera   cuadro_busqueda nombre_usuario  carrito_compras"45px 
             "img_cabecera   navbar          navbar          carrito_compras"40px / 
-            15%             auto            15%             8%;
+            20%             auto            20%             8%;
     }
 
     .noticias {
         display: grid;
-        gap: 1px;
-        justify-content: space-evenly;
+        gap: 50px;
+        justify-content: center;
         grid-template:
             "noticia_1  noticia_2   noticia_3"100% / 
-            20%         25%         25%;
+            20%         20%         20%;
     }
 
     .filtros {
@@ -849,7 +843,7 @@ body {
         grid-template:
             "preguntas_frecuentes      contacto"   60px
             "terminos_condiciones      acerca_de"  auto
-            "copyright                 copyright"  45px /
+            "copyright                 copyright"  26px /
             50%                        auto;
     
     }
@@ -868,26 +862,38 @@ body {
         height: 80px;
     }
 
+
+
+
+
+
+
+
+
+
     .cuadro_busqueda{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
-
     .input_busqueda{
-        width: 50%;
+        width: 60%;
         height: 30px;
         border: 1px solid #e8e8e8;
         border-radius: 2px;
         padding: 1px;
         text-align: left;
         padding-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:end;
+        flex: 1;
     }
     .input_busqueda:focus{
         outline: none;
     }
-
     .boton_busqueda{
         width: 30px;
         height: 30px;
@@ -896,30 +902,53 @@ body {
         padding: 1px;
         text-align: center;
         background-color: rgba(47, 79, 79, 0.3);
-        margin-left: -235px;
+        z-index: 1;
     }
     .boton_busqueda img{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
         z-index: -10;
         user-select: none;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .nombre_usuario{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
     }
-    .nombre_usuario_1{
-        width: 90%;
-        height: 28px;
-        margin: 0%;
-    }
+    .nombre_usuario_1,
     .nombre_usuario_2{
         width: 90%;
         height: 30px;
-        margin: auto;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        padding-left: 5px;
+    }
+    .nombre_usuario_1{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
     }
     .carrito_compras{
         display: flex;

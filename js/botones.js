@@ -30,6 +30,8 @@ const teclas_Programas = (e) => {
         case "login":
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de login');
+            borra();
+            carga_registro();
             }, 250);
             break;
         case "buscar":
