@@ -193,13 +193,13 @@ body {
 
 .noticia_2 {
     grid-area: noticia_2;
-    background-color: yellow;
+    /* background-color: yellow; */
     background-color: var(--color_fondo_produccion);
 }
 
 .noticia_3 {
     grid-area: noticia_3;
-    background-color: orange;
+    /* background-color: orange; */
     background-color: var(--color_fondo_produccion);
 }
 
@@ -287,46 +287,46 @@ body {
 .prenda_1 {
     grid-area: prenda_1;
     margin-top: 5%;
-    background-color: crimson;
+    /* background-color: crimson; */
     background-color: transparent;
 }
 
 .prenda_2 {
     grid-area: prenda_2;
     margin-top: 5%;
-    background-color: aqua;
+    /* background-color: aqua; */
     background-color: transparent;
 }
 
 .prenda_3 {
     grid-area: prenda_3;
     margin-top: 5%;
-    background-color: aqua;
+    /* background-color: aqua; */
     background-color: transparent;
 }
 
 .prenda_4 {
     grid-area: prenda_4;
-    background-color: aqua;
+    /* background-color: aqua; */
     background-color: transparent;
 }
 
 .prenda_5 {
     grid-area: prenda_5;
-    background-color: aqua;
+    /* background-color: aqua; */
     background-color: transparent;
 }
 
 .prenda_6 {
-    grid-area: prenda_6;
+    /* grid-area: prenda_6; */
     background-color: aqua;
     background-color: transparent;
 }
 
 .prenda_1>* {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
-    padding: 1px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -343,12 +343,12 @@ body {
 
 .tipo_prenda_1 {
     grid-area: tipo_prenda_1;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .tipo_descripcion_1 {
     grid-area: tipo_descripcion_1;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .tipo_precio_1 {
@@ -367,7 +367,7 @@ body {
 }
 
 .prenda_2>* {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -386,12 +386,12 @@ body {
 
 .tipo_prenda_2 {
     grid-area: tipo_prenda_2;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .tipo_descripcion_2 {
     grid-area: tipo_descripcion_2;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .tipo_precio_2 {
@@ -410,7 +410,7 @@ body {
 }
 
 .prenda_3>* {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -429,12 +429,12 @@ body {
 
 .tipo_prenda_3 {
     grid-area: tipo_prenda_3;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .tipo_descripcion_3 {
     grid-area: tipo_descripcion_3;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .tipo_precio_3 {
@@ -453,7 +453,7 @@ body {
 }
 
 .prenda_4>* {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -472,12 +472,12 @@ body {
 
 .tipo_prenda_4 {
     grid-area: tipo_prenda_4;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .tipo_descripcion_4 {
     grid-area: tipo_descripcion_4;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .tipo_precio_4 {
@@ -496,7 +496,7 @@ body {
 }
 
 .prenda_5>* {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -515,12 +515,12 @@ body {
 
 .tipo_prenda_5 {
     grid-area: tipo_prenda_5;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .tipo_descripcion_5 {
     grid-area: tipo_descripcion_5;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .tipo_precio_5 {
@@ -539,7 +539,7 @@ body {
 }
 
 .prenda_6>* {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -558,12 +558,12 @@ body {
 
 .tipo_prenda_6 {
     grid-area: tipo_prenda_6;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .tipo_descripcion_6 {
     grid-area: tipo_descripcion_6;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .tipo_precio_6 {
@@ -659,38 +659,6 @@ body {
     background-color: gold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 576px) {
     .tienda_grupo_12 {
         display: grid;
@@ -726,7 +694,7 @@ body {
             "noticias   noticias  "140px 
             "filtros    productos "800px 
             "footer     footer    "350px / 
-            180px       auto;
+            200px       auto;
     }
 
     .cabecera {
@@ -751,12 +719,12 @@ body {
         display: grid;
         gap: 20px;
         grid-template:
-            "filtro_1"30px 
-            "filtro_2"30px 
-            "filtro_3"30px 
-            "filtro_4"30px 
-            "filtro_5"30px 
-            "filtro_6"30px / 
+            "filtro_1"85px 
+            "filtro_2"85px 
+            "filtro_3"85px 
+            "filtro_4"85px 
+            "filtro_5"85px 
+            "filtro_6"85px / 
             100%;
     }
 
@@ -773,7 +741,7 @@ body {
 
     .prenda_1 {
         display: grid;
-        gap: 5px;
+        gap: 0px;
         grid-template:
             "tipo_prenda_1          tipo_prenda_1        "230px 
             "tipo_descripcion_1     tipo_descripcion_1   "40px 
@@ -784,7 +752,7 @@ body {
 
     .prenda_2 {
         display: grid;
-        gap: 5px;
+        gap: 0px;
         grid-template:
             "tipo_prenda_2          tipo_prenda_2        "230px 
             "tipo_descripcion_2     tipo_descripcion_2   "40px 
@@ -795,7 +763,7 @@ body {
 
     .prenda_3 {
         display: grid;
-        gap: 5px;
+        gap: 0px;
         grid-template:
             "tipo_prenda_3          tipo_prenda_3        "230px 
             "tipo_descripcion_3     tipo_descripcion_3   "40px 
@@ -806,7 +774,7 @@ body {
 
     .prenda_4 {
         display: grid;
-        gap: 5px;
+        gap: 0px;
         grid-template:
             "tipo_prenda_4          tipo_prenda_4        "230px 
             "tipo_descripcion_4     tipo_descripcion_4   "40px 
@@ -817,7 +785,7 @@ body {
 
     .prenda_5 {
         display: grid;
-        gap: 5px;
+        gap: 0px;
         grid-template:
             "tipo_prenda_5          tipo_prenda_5        "230px 
             "tipo_descripcion_5     tipo_descripcion_5   "40px 
@@ -828,7 +796,7 @@ body {
 
     .prenda_6 {
         display: grid;
-        gap: 5px;
+        gap: 0px;
         grid-template:
             "tipo_prenda_6          tipo_prenda_6        "230px 
             "tipo_descripcion_6     tipo_descripcion_6   "40px 
@@ -1008,6 +976,108 @@ body {
         font-weight: 600;
         
     }
+
+    .filtro_1,
+    .filtro_2,
+    .filtro_3,
+    .filtro_4,
+    .filtro_5,
+    .filtro_6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .filtro_1 img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .filtro_2 img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .filtro_3 img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .filtro_4 img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+.tipo_prenda_1,
+.tipo_prenda_2,
+.tipo_prenda_3,
+.tipo_prenda_4,
+.tipo_prenda_5,
+.tipo_prenda_6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tipo_prenda_1 img{
+    border-radius: 5px;
+    width: 65%;
+    height: 100%;
+}
+.tipo_prenda_2 img{
+    border-radius: 5px;
+    width: 65%;
+    height: 100%;
+}
+
+    .tipo_descripcion_1,
+    .tipo_descripcion_2,
+    .tipo_descripcion_3,
+    .tipo_descripcion_4,
+    .tipo_descripcion_5,
+    .tipo_descripcion_6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

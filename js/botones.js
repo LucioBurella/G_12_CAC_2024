@@ -37,6 +37,7 @@ const teclas_Programas = (e) => {
         case "buscar":
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton buscar esta en construccion esta seccion')
             }, 250);
             break;
 
