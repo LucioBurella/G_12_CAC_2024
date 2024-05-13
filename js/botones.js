@@ -42,41 +42,63 @@ const teclas_Programas = (e) => {
             break;
         case "me_gusta_1":
             setTimeout(() => {
-                console.log('Se ha hecho click en el botón de buscar');
+                console.log('Se ha hecho click en el botón de prenda 1');
                 alert('Presionaste boton me gusta en la prenda 1')
             }, 250);
             break;
         case "me_gusta_2":
             setTimeout(() => {
-                console.log('Se ha hecho click en el botón de buscar');
+                console.log('Se ha hecho click en el botón de prenda 2');
                 alert('Presionaste boton me gusta en la prenda 2')
             }, 250);
             break;
         case "me_gusta_3":
             setTimeout(() => {
-                console.log('Se ha hecho click en el botón de buscar');
+                console.log('Se ha hecho click en el botón de prenda 3');
                 alert('Presionaste boton me gusta en la prenda 3')
             }, 250);
             break;
         case "me_gusta_4":
             setTimeout(() => {
-                console.log('Se ha hecho click en el botón de buscar');
+                console.log('Se ha hecho click en el botón de prenda 4');
                 alert('Presionaste boton me gusta en la prenda 4')
             }, 250);
             break;
         case "me_gusta_5":
             setTimeout(() => {
-                console.log('Se ha hecho click en el botón de buscar');
+                console.log('Se ha hecho click en el botón de prenda 5');
                 alert('Presionaste boton me gusta en la prenda 5')
             }, 250);
             break;
         case "me_gusta_6":
             setTimeout(() => {
-                console.log('Se ha hecho click en el botón de buscar');
+                console.log('Se ha hecho click en el botón de prenda 6');
                 alert('Presionaste boton me gusta en la prenda 6')
             }, 250);
+        case "remeras":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de listar remeras');
+                alert('Presionaste boton listar remeras')
+            }, 250);
             break;
-
+        case "pantalon":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de listar pantalones');
+                alert('Presionaste boton listar pantalones')
+            }, 250);
+            break;
+        case "camisa":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de listar camisas');
+                alert('Presionaste boton listar camisas')
+            }, 250);
+            break;
+        case "camperas":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de listar camperas');
+                alert('Presionaste boton listar camperas')
+            }, 250);
+            break;
     
     
 

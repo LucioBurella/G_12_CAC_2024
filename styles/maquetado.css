@@ -205,7 +205,7 @@ body {
 
 
 .filtros>* {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     padding: 0px;
 }
@@ -736,7 +736,7 @@ body {
         grid-template:
             "prenda_1   prenda_2    prenda_3"380px 
             "prenda_4   prenda_5    prenda_6"380px / 
-            29%         29%         29%;
+            26%         26%         26%;
     }
 
     .prenda_1 {
@@ -976,7 +976,6 @@ body {
         font-weight: 600;
         
     }
-
     .filtro_1,
     .filtro_2,
     .filtro_3,
@@ -988,6 +987,34 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .boton_filtro_1,
+    .boton_filtro_2,
+    .boton_filtro_3,
+    .boton_filtro_4,
+    .boton_filtro_5,
+    .boton_filtro_6 {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+        padding: 0px;
+        text-align: center;
+        z-index: 1;
+    }
+    .boton_filtro_1 img,
+    .boton_filtro_2 img,
+    .boton_filtro_3 img,
+    .boton_filtro_4 img,
+    .boton_filtro_5 img,
+    .boton_filtro_6 img {
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        user-select: none;
+    }
+/* 
+
+
     .filtro_1 img{
         border-radius: 5px;
         width: 100%;
@@ -1008,32 +1035,58 @@ body {
         width: 100%;
         height: 100%;
     }
+ */
 
 
 
 
-.tipo_prenda_1,
-.tipo_prenda_2,
-.tipo_prenda_3,
-.tipo_prenda_4,
-.tipo_prenda_5,
-.tipo_prenda_6{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.tipo_prenda_1 img{
-    border-radius: 5px;
-    width: 65%;
-    height: 100%;
-}
-.tipo_prenda_2 img{
-    border-radius: 5px;
-    width: 65%;
-    height: 100%;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .tipo_prenda_1,
+    .tipo_prenda_2,
+    .tipo_prenda_3,
+    .tipo_prenda_4,
+    .tipo_prenda_5,
+    .tipo_prenda_6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tipo_prenda_1 img {
+        border-radius: 5px;
+        width: 65%;
+        height: 100%;   
+    }
+    .tipo_prenda_2 img{
+        border-radius: 5px;
+        width: 65%;
+        height: 100%;
+    }
     .tipo_descripcion_1,
     .tipo_descripcion_2,
     .tipo_descripcion_3,
