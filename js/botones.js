@@ -37,6 +37,43 @@ const teclas_Programas = (e) => {
         case "buscar":
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton buscar esta en construccion esta seccion')
+            }, 250);
+            break;
+        case "me_gusta_1":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton me gusta en la prenda 1')
+            }, 250);
+            break;
+        case "me_gusta_2":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton me gusta en la prenda 2')
+            }, 250);
+            break;
+        case "me_gusta_3":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton me gusta en la prenda 3')
+            }, 250);
+            break;
+        case "me_gusta_4":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton me gusta en la prenda 4')
+            }, 250);
+            break;
+        case "me_gusta_5":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton me gusta en la prenda 5')
+            }, 250);
+            break;
+        case "me_gusta_6":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de buscar');
+                alert('Presionaste boton me gusta en la prenda 6')
             }, 250);
             break;
 
