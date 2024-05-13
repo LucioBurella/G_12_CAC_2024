@@ -157,7 +157,7 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 ![Captura de pantalla 1](./img/Maqueta%2021.png)
 <br>
 
-# Video de pruebas -  Pagina dinamica con Javascript 
+# Test de los avances pagina dinamica con Javascript 
 
 [![Video demostracion](https://img.youtube.com/vi/pLS4Ifc9b4E/0.jpg)](https://www.youtube.com/watch?v=pLS4Ifc9b4E)
 
