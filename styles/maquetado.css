@@ -363,7 +363,7 @@ body {
 
 .tipo_boton_favorito_1 {
     grid-area: tipo_boton_favorito_1;
-    background-color: tomato;
+    background-color: transparent;
 }
 
 .prenda_2>* {
@@ -406,7 +406,7 @@ body {
 
 .tipo_boton_favorito_2 {
     grid-area: tipo_boton_favorito_2;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 .prenda_3>* {
@@ -449,7 +449,7 @@ body {
 
 .tipo_boton_favorito_3 {
     grid-area: tipo_boton_favorito_3;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 .prenda_4>* {
@@ -492,7 +492,7 @@ body {
 
 .tipo_boton_favorito_4 {
     grid-area: tipo_boton_favorito_4;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 .prenda_5>* {
@@ -535,7 +535,7 @@ body {
 
 .tipo_boton_favorito_5 {
     grid-area: tipo_boton_favorito_5;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 .prenda_6>* {
@@ -578,7 +578,7 @@ body {
 
 .tipo_boton_favorito_6 {
     grid-area: tipo_boton_favorito_6;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 .footer>* {
@@ -1047,8 +1047,43 @@ body {
         font-size: 12px;
         font-weight: 600;
     }
+    .tipo_boton_favorito_1,
+    .tipo_boton_favorito_2,
+    .tipo_boton_favorito_3,
+    .tipo_boton_favorito_4,
+    .tipo_boton_favorito_5,
+    .tipo_boton_favorito_6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tipo_boton_favorito_1 img,
+    .tipo_boton_favorito_2 img,
+    .tipo_boton_favorito_3 img,
+    .tipo_boton_favorito_4 img,
+    .tipo_boton_favorito_5 img,
+    .tipo_boton_favorito_6 img{
+        border-radius: 5px;
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
 
-
+    .me_gusta_1,
+    .me_gusta_2,
+    .me_gusta_3,
+    .me_gusta_4,
+    .me_gusta_5,
+    .me_gusta_6{
+        width: 30px;
+        height: 30px;
+        border-radius: 2px;
+        padding: 1px;
+        text-align: center;
+        /* background-color: rgba(47, 79, 79, 0.3); */
+        z-index: 1;
+    }
 
 
 
