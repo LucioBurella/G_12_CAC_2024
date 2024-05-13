@@ -17,11 +17,16 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 
 
 
-## Tecnologías utilizadas
+## Tecnologías utilizadas (lenguajes)
+
 - HTML5
 - CSS3
 - JavaScript
+
+## Tecnologías utilizadas (editores de codigo)
+
 - VSCODE Editor de codigo
+- IDX Google (Editor de codigo)
 - GitHub alojamiento del repositorio y versionador
 
 ## Capturas de pantalla del proceso de desarrollo documento html
@@ -109,6 +114,37 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 
 ![Captura de pantalla 1](./img/Maqueta%2014.png)
 <br>
+
+- Maquetado y dimensionado de Documento HTML paso 15 Iniciando carga de contenido
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2015.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 16 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2016.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 17 
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2017.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 18
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2018.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 19
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2019.png)
+<br>
+
 
 ## Capturas de pantalla del proceso de desarrollo login
 
