@@ -933,10 +933,9 @@ body {
         align-items: center;
         justify-content: center;
     }
-    .carrito_1 img{
+    .boton_carrito{
         width: 60%;
         height: 60%;
-        margin: 10%;
     }
     .div_noticia_1_imagen,
     .div_noticia_2_imagen,

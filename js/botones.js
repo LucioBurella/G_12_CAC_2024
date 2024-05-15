@@ -99,8 +99,19 @@ const teclas_Programas = (e) => {
                 alert('Presionaste boton listar camperas')
             }, 250);
             break;
-    
-    
+        case "logo_inicio":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el logo de la tienda');
+                borra();
+                carga_completa();
+            }, 250);
+            break;   
+        case "carrito":
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion');
+                alert('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion')
+            }, 250);
+            break;    
 
 
 
