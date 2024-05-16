@@ -40,25 +40,25 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 - Maquetado y dimensionado de Documento HTML paso 2 
 <br>
 
-![Captura de pantalla 1](./img/Maquetado/Maqueta%2002.png)
+![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/master/img/maquetado/Maqueta%2002.png)
 <br>
 
 - Maquetado y dimensionado de Documento HTML paso 3 
 <br>
 
-![Captura de pantalla 1](./img/Maquetado/Maqueta%2003.png)
+![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/master/img/maquetado/Maqueta%2003.png)
 <br>
 
 - Maquetado y dimensionado de Documento HTML paso 4 
 <br>
 
-![Captura de pantalla 1](./img/Maquetado/Maqueta%2004.png)
+![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/master/img/maquetado/Maqueta%2004.png)
 <br>
 
 - Maquetado y dimensionado de Documento HTML paso 5 
 <br>
 
-![Captura de pantalla 1](./img/Maquetado/Maqueta%2005.png)
+![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/master/img/maquetado/Maqueta%2005.png)
 <br>
 
 - Maquetado y dimensionado de Documento HTML paso 6
