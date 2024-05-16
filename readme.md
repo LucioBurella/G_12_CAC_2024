@@ -34,7 +34,7 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 - Maquetado y dimensionado de Documento HTML paso 1 
 <br>
 
-![Captura de pantalla 1](./img/Maquetado/Maqueta%2001.png)
+![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/master/img/maquetado/Maqueta%2001.png)
 <br>
 
 - Maquetado y dimensionado de Documento HTML paso 2 
