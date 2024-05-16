@@ -41,45 +41,42 @@ const teclas_Programas = (e) => {
             }, 250);
             break;
         case "me_gusta_1":
-            document.getElementById('me_gusta_1').addEventListener('click', function() {
-                if (this.src.includes('me_gusta_vacio.png')) {
-                    this.src = './img/front/me_gusta_lleno.png';
-                } else {
-                    this.src = './img/front/me_gusta_vacio.png';
-                }
-            });
+            meGusta("me_gusta_1");
         setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 1');
                 alert('Presionaste boton me gusta en la prenda 1')
             }, 250);
             break;
- 
- 
             case "me_gusta_2":
+                meGusta("me_gusta_2");
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 2');
                 alert('Presionaste boton me gusta en la prenda 2')
             }, 250);
             break;
         case "me_gusta_3":
+            meGusta("me_gusta_3");
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 3');
                 alert('Presionaste boton me gusta en la prenda 3')
             }, 250);
             break;
         case "me_gusta_4":
+            meGusta("me_gusta_4");
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 4');
                 alert('Presionaste boton me gusta en la prenda 4')
             }, 250);
             break;
         case "me_gusta_5":
+            meGusta("me_gusta_5");
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 5');
                 alert('Presionaste boton me gusta en la prenda 5')
             }, 250);
             break;
         case "me_gusta_6":
+            meGusta("me_gusta_6");
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 6');
                 alert('Presionaste boton me gusta en la prenda 6')
@@ -127,14 +124,6 @@ const teclas_Programas = (e) => {
                 alert('Presionaste boton listar camperas')
             }, 250);
             break;
-            
-
-
-
-
-
-
-
         case "logo_inicio":
             setTimeout(() => {
                 console.log('Se ha hecho click en el logo de la tienda');
@@ -148,9 +137,6 @@ const teclas_Programas = (e) => {
                 alert('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion')
             }, 250);
             break;    
-
-
-
 	}
 }
   const inputs = document.querySelectorAll(".tecla");
@@ -158,3 +144,12 @@ for (let i = 0; i < inputs.length; i++) {
 	inputs[i].addEventListener('click', teclas_Programas);
 }
 
+function meGusta(prenda){
+    let fav1 = document.getElementById(prenda);
+    console.log(fav1);
+    if (fav1.src.includes('me_gusta_vacio.png')) {
+      fav1.src = './img/front/me_gusta_lleno.png';
+    } else {
+      fav1.src = './img/front/me_gusta_vacio.png';
+    }
+}
