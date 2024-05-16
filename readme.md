@@ -187,7 +187,7 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 - ajuste y terminacion sin tema  
 <br>
 
-![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/master/img/maquetado/maqueta%20login.png)
+![Captura de pantalla 1](https://github.com/LucioBurella/G_12_CAC_2024/blob/master/img/maquetado/maqueta%20login4.png)
 <br>
 
 

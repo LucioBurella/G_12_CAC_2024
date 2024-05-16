@@ -41,12 +41,21 @@ const teclas_Programas = (e) => {
             }, 250);
             break;
         case "me_gusta_1":
-            setTimeout(() => {
+            document.getElementById('me_gusta_1').addEventListener('click', function() {
+                if (this.src.includes('me_gusta_vacio.png')) {
+                    this.src = './img/front/me_gusta_lleno.png';
+                } else {
+                    this.src = './img/front/me_gusta_vacio.png';
+                }
+            });
+        setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 1');
                 alert('Presionaste boton me gusta en la prenda 1')
             }, 250);
             break;
-        case "me_gusta_2":
+ 
+ 
+            case "me_gusta_2":
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de prenda 2');
                 alert('Presionaste boton me gusta en la prenda 2')
