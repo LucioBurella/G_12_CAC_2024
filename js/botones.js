@@ -76,29 +76,56 @@ const teclas_Programas = (e) => {
                 alert('Presionaste boton me gusta en la prenda 6')
             }, 250);
         case "remeras":
+            borra();
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de listar remeras');
                 alert('Presionaste boton listar remeras')
+
             }, 250);
             break;
         case "pantalon":
+            borra();
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de listar pantalones');
                 alert('Presionaste boton listar pantalones')
             }, 250);
             break;
         case "camisa":
+            borra();
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de listar camisas');
                 alert('Presionaste boton listar camisas')
             }, 250);
             break;
         case "camperas":
+            borra();
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de listar camperas');
                 alert('Presionaste boton listar camperas')
             }, 250);
             break;
+        case "gorras":
+            borra();
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de listar camperas');
+                alert('Presionaste boton listar camperas')
+            }, 250);
+            break;
+        case "accesorios":
+            borra();
+            setTimeout(() => {
+                console.log('Se ha hecho click en el botón de listar camperas');
+                alert('Presionaste boton listar camperas')
+            }, 250);
+            break;
+            
+
+
+
+
+
+
+
         case "logo_inicio":
             setTimeout(() => {
                 console.log('Se ha hecho click en el logo de la tienda');

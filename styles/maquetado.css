@@ -227,42 +227,42 @@ body {
     width: 80%;
     margin-left: 10%;
     grid-area: filtro_1;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .filtro_2 {
     width: 80%;
     margin-left: 10%;
     grid-area: filtro_2;
-    background-color: rgba(187, 23, 113, 0.979);
+    /* background-color: rgba(187, 23, 113, 0.979); */
 }
 
 .filtro_3 {
     width: 80%;
     margin-left: 10%;
     grid-area: filtro_3;
-    background-color: rgba(107, 107, 134, 0.719);
+    /* background-color: rgba(107, 107, 134, 0.719); */
 }
 
 .filtro_4 {
     width: 80%;
     margin-left: 10%;
     grid-area: filtro_4;
-    background-color: darkkhaki
+    /* background-color: darkkhaki */
 }
 
 .filtro_5 {
     width: 80%;
     margin-left: 10%;
     grid-area: filtro_5;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .filtro_6 {
     width: 80%;
     margin-left: 10%;
     grid-area: filtro_6;
-    background-color: rgba(187, 23, 113, 0.979)
+    /* background-color: rgba(187, 23, 113, 0.979) */
 }
 
 .productos>* {
@@ -999,6 +999,7 @@ body {
         padding: 0px;
         text-align: center;
         z-index: 1;
+        user-select: none;
     }
     .boton_filtro_1 img,
     .boton_filtro_2 img,
