@@ -1,6 +1,6 @@
 function carga_completa() {
     const productos = document.querySelector('.productos');
-    productos.style.gridTemplateColumns = '29% 29% 29%';
+    productos.style.gridTemplateColumns = '26% 26% 26%';
 
     const classNamesToGrid = [".noticias",
         ".filtros",

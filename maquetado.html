@@ -6,20 +6,17 @@
     <title>Tienda Grupo_12</title>
     <link rel="stylesheet" href="/styles/maquetado.css">
     <link rel="stylesheet" href="/styles/login.css">
- 
-    
-    
 </head>
 <body class="tienda_grupo_12">
 <header class="cabecera">
     <section class="img_cabecera">
-        <img src="./img/logo_05.png" alt="">
+        <input class=" tecla" name="logo_inicio" src="./img/front/logo_05.png" type="image" />
     </section>
 
     <section class="cuadro_busqueda">
         <input type="text" class="input_busqueda" name="" id=""
             placeholder="Busca prendas marcas y todo lo que te gusta...">
-        <input class="boton_busqueda tecla" name="buscar" src="./img/lupa.png" type="image" />
+        <input class="boton_busqueda tecla" name="buscar" src="./img/front/lupa.png" type="image" />
     </section>
 
     <section class="nombre_usuario">
@@ -33,7 +30,7 @@
 
     <section class="carrito_compras">
         <div class="carrito_1">
-            <img src="./img/carrito-de-compras.png" alt="">
+            <input class="boton_carrito tecla" name="carrito" src="./img/front/carrito-de-compras.png" type="image" />
         </div>
     </section>
 
@@ -64,12 +61,10 @@
     </nav>
 </header>
 
-
-
 <section class="noticias">
     <section class="noticia_1">
         <div class="div_noticia_1_imagen">
-            <img src="./img/camion.png" alt="">
+            <img src="./img/front/camion.png" alt="">
         </div>
         <div class="div_noticia_1_parrafo">
             <h2>Eníos gratis a todo el país en 48hs</h2>
@@ -78,7 +73,7 @@
     </section>
     <section class="noticia_2">
         <div class="div_noticia_2_imagen">
-            <img src="./img/tarjeta-de-credito.png" alt="">
+            <img src="./img/front/tarjeta-de-credito.png" alt="">
         </div>
         <div class="div_noticia_2_parrafo">
             <h2>3 Cuotas sin interes</h2>
@@ -88,7 +83,7 @@
 
     <section class="noticia_3">
         <div class="div_noticia_3_imagen">
-            <img src="./img/auricular.png" alt="">
+            <img src="./img/front/auricular.png" alt="">
         </div>
         <div class="div_noticia_3_parrafo">
             <h2>3 Cuotas sin interes</h2>
@@ -99,56 +94,89 @@
 </section>
 
 <aside class="filtros">
-    <section class="filtro_1">Boton filtro 1</section>
-    <section class="filtro_2">Boton filtro 2</section>
-    <section class="filtro_3">Boton filtro 3</section>
-    <section class="filtro_4">Boton filtro 4</section>
-    <section class="filtro_5">Boton filtro 5</section>
-    <section class="filtro_6">Boton filtro 6</section>
+    <section class="filtro_1">
+            <input class="boton_filtro_1 tecla" name="remeras" value="Remeras"/>
+    </section>
+    <section class="filtro_2">
+        <input class="boton_filtro_2 tecla" name="pantalon" value="Pantalones"/>
+    </section>
+    <section class="filtro_3">
+        <input class="boton_filtro_3 tecla" name="camisa" value="Camisas"/>  
+    </section>
+    <section class="filtro_4">
+        <input class="boton_filtro_4 tecla" name="camperas" value="Camperas"/>      
+    </section>
+    <section class="filtro_5">
+        <input class="boton_filtro_5 tecla" name="gorras" value="Gorras"/> 
+    </section>
+    <section class="filtro_6">
+        <input class="boton_filtro_4 tecla" name="accesorios" value="Accesorios"/> 
+    </section>
 </aside>
 
 <article class="productos">
+
     <div class="prenda_1">
-        <div class="tipo_prenda_1">Imagen</div>
-        <div class="tipo_descripcion_1">Descripcion</div>
+        <div class="tipo_prenda_1">
+            <img src="./img/Hardcoding/Remeras/Remeras_3.jpg" alt="">
+        </div>
+        <div class="tipo_descripcion_1">
+            <P>Remera de algodon 1ra calidad</P>
+            <P>con dibujo estampado</P>
+        </div>
         <div class="tipo_precio_1">Precio</div>
         <div class="tipo_boton_comprar_1">Comprar</div>
-        <div class="tipo_boton_favorito_1">Favorito</div>
+        <div class="tipo_boton_favorito_1">
+            <input class="me_gusta_1 tecla" id="me_gusta_1" name="me_gusta_1" src="./img/front/me_gusta_vacio.png" type="image" />
+        </div>
     </div>
+
     <div class="prenda_2">
-        <div class="tipo_prenda_2">Imagen</div>
+        <div class="tipo_prenda_2">
+            <img src="./img/Hardcoding/Remeras/Remeras_4.jpg" alt="">          
+        </div>
         <div class="tipo_descripcion_2">Descripcion</div>
         <div class="tipo_precio_2">Precio</div>
         <div class="tipo_boton_comprar_2">Comprar</div>
-        <div class="tipo_boton_favorito_2">Favorito</div>
+        <div class="tipo_boton_favorito_2">
+            <input class="me_gusta_2 tecla" id="me_gusta_2" name="me_gusta_2" src="./img/front/me_gusta_vacio.png" type="image" />
+        </div>
     </div>
     <div class="prenda_3">
         <div class="tipo_prenda_3">Imagen</div>
         <div class="tipo_descripcion_3">Descripcion</div>
         <div class="tipo_precio_3">Precio</div>
         <div class="tipo_boton_comprar_3">Comprar</div>
-        <div class="tipo_boton_favorito_3">Favorito</div>
+        <div class="tipo_boton_favorito_3">
+            <input class="me_gusta_3 tecla" id="me_gusta_3" name="me_gusta_3" src="./img/front/me_gusta_vacio.png" type="image" />
+        </div>
     </div>
     <div class="prenda_4">
         <div class="tipo_prenda_4">Imagen</div>
         <div class="tipo_descripcion_4">Descripcion</div>
         <div class="tipo_precio_4">Precio</div>
         <div class="tipo_boton_comprar_4">Comprar</div>
-        <div class="tipo_boton_favorito_4">Favorito</div>
+        <div class="tipo_boton_favorito_4">
+            <input class="me_gusta_4 tecla" id="me_gusta_4" name="me_gusta_4" src="./img/front/me_gusta_vacio.png" type="image" />
+        </div>
     </div>
     <div class="prenda_5">
         <div class="tipo_prenda_5">Imagen</div>
         <div class="tipo_descripcion_5">Descripcion</div>
         <div class="tipo_precio_5">Precio</div>
         <div class="tipo_boton_comprar_5">Comprar</div>
-        <div class="tipo_boton_favorito_5">Favorito</div>
+        <div class="tipo_boton_favorito_5">
+            <input class="me_gusta_5 tecla" id="me_gusta_5" name="me_gusta_5" src="./img/front/me_gusta_vacio.png" type="image" />
+        </div>
     </div>
     <div class="prenda_6">
         <div class="tipo_prenda_6">Imagen</div>
         <div class="tipo_descripcion_6">Descripcion</div>
         <div class="tipo_precio_6">Precio</div>
         <div class="tipo_boton_comprar_6">Comprar</div>
-        <div class="tipo_boton_favorito_6">Favorito</div>
+        <div class="tipo_boton_favorito_6">
+            <input class="me_gusta_6 tecla" id="me_gusta_6" name="me_gusta_6" src="./img/front/me_gusta_vacio.png" type="image" />
+        </div>
     </div>
 
 
@@ -185,12 +213,6 @@
 
 </article>
 
-
-
-
-
-
-
 <dialog class="formulario_login_contenedor" style="display: none;">
     <div class="formulario_login_titulo">
         <h1>Login</h1>
@@ -216,13 +238,6 @@
         <h3>Grupo 12 CaC</h3>
     </div>
 </dialog>
-
-
-
-
-
-
-
 
 <footer class="footer">
     <section class="preguntas_frecuentes">Preguntas frecuentes</section>

@@ -145,6 +145,36 @@ Este proyecto consiste en el desarrollo de una página web para una tienda de ro
 ![Captura de pantalla 1](./img/Maqueta%2019.png)
 <br>
 
+- Maquetado y dimensionado de Documento HTML paso 20
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2020.png)
+<br>
+
+- Maquetado y dimensionado de Documento HTML paso 21
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2021.png)
+<br>
+
+# Video del proyecto - Test de los avances pagina dinamica con Javascript 
+
+[![Video demostracion](https://img.youtube.com/vi/pLS4Ifc9b4E/0.jpg)](https://www.youtube.com/watch?v=pLS4Ifc9b4E)
+
+
+- Maquetado y dimensionado de Documento HTML paso 22
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2022.png)
+<br>
+
+
+
+
+
+
+
+
 
 ## Capturas de pantalla del proceso de desarrollo login
 
