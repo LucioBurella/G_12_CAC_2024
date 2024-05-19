@@ -8,7 +8,7 @@
         --radio_borde_botones: 10px;
         --grosor_borde_botones: 1px;
         --color_transparente: transparent;
-        --color_fondo_produccion: rgba(245, 245, 220, 1);
+        --color_fondo_produccion: rgba(245, 245, 220, 1);        
         --color_fondo_botones: rgba(197, 197, 145,1);
         --color_borde_productos: #e0e0e0;
         --color_fondo_productos: whitesmoke;
@@ -637,7 +637,7 @@ body {
 
 }
 .contacto > * {
-    border: 1px solid transparent;
+    border: 1px solid black;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
