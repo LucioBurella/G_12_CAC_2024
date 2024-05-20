@@ -1241,7 +1241,7 @@ body {
         /* background-color: rgba(47, 79, 79, 0.3); */
         z-index: 1;
     }
-    .formulario_registro_contenedor {
+    .distintas_preguntas_contenedor {
         background-color: gold;
         display: grid;
         width: 100%;

@@ -55,6 +55,39 @@ function borra() {
     }
 }
 
+function seleccionar(id) {
+    setTimeout(() => {
+        console.log('Se ha hecho click en el botón de login');
+        borra();
+        carga_preguntas(id);
+    }, 250);
+}
+
+function carga_preguntas(id) {
+    try {
+        const productos = document.querySelector('.productos');
+        productos.style.gridTemplateColumns = '20% 40% 20%';
+
+        const dudasElements = document.querySelectorAll(".dudas");
+        dudasElements.forEach(element => {
+            element.style.display = "none";
+        });
+
+        const preguntaSeleccionada = document.querySelector('.distintas_preguntas_contenedor');
+        preguntaSeleccionada.style.gridArea = '1 / 2 / 2 / 2';
+
+        const sitElements = document.getElementById(id);
+        if (sitElements) {
+            sitElements.style.display = "grid";
+           
+        } else {
+            console.log("El elemento con ID " + id + " no fue encontrado.");
+        }
+    } catch (error) {
+        console.log("Error en carga de pantalla " + error);
+    }
+}
+
 
 
 //const inicioButton = document.getElementById("inicio");

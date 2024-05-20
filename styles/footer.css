@@ -33,3 +33,20 @@
     margin-top: 1%;    
 }
 
+.dudas{
+    text-align: center;
+}
+
+.distintas_preguntas_contenedor {
+    background-color: rgb(250, 248, 248);
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.dudas{
+    text-align: center;
+    font-size: 12pt;
+}
+
