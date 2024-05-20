@@ -3,9 +3,9 @@
 
 ## Integrantes del grupo 12 comision 24255
 
-- Mario Gonzalez    
-- Lucio Burella
-- Leonardo Di Francesco
+- Gonzalez Mario   
+- Burella Lucio
+- Di Francesco Leonardo
 - Garay Tomas 
 
 ## Descripción
