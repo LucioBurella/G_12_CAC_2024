@@ -612,22 +612,60 @@ body {
 }
 .contacto{
     grid-area: contacto;
-    background-color: var(--color_fondo_produccion);
 }
 .acerca_de{
     grid-area: acerca_de;
-    background-color: gold;
+}
+.acerca_de {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    background-color: var(--color_fondo_botones);
+    grid-template:
+        "titulo_telefono    titulo_ubicacion     "auto
+        "telefono           ubicacion " auto /
+        50%                  15%   ;
+}
+.titulo_ubicacion{
+    text-align: center;
+}
+.ubicacion{
+    text-align: center;
+}
+.titulo_telefono{
+    text-align: left;
+    margin-left: 20px;
+}
+.telefono{
+    text-align: center;
 }
 
 .preguntas_frecuentes{
     grid-area: preguntas_frecuentes;
-    background-color: gold;
+    background-color: var(--color_fondo_botones);
+    text-align: center;
+}
+
+.preguntas_enlace{
+    list-style:none;
+    margin-bottom: 1%;
+}
+.pregunta{
+    margin: 1% 0% 0% 10%;
 }
 
 .terminos_condiciones{
     grid-area: terminos_condiciones;
-    background-color: gold;
-
+    background-color: var(--color_fondo_botones);
+}
+.terminos_condiciones {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template:
+        "condiciones"auto
+        "condiciones_pagos " auto /
+        80%                   ;
 }
 
 .copyright{
@@ -647,18 +685,18 @@ body {
 
 .titulo_contacto {
     display: grid;
-    background-color: brown;
+    background-color: var(--color_fondo_botones);
     gap: 1px;
     grid-template-areas:
     "titulo_contacto";
 }
 .titulo_contacto{
     grid-area: titulo_contacto;
-    background-color: red;
+    background-color: var(--color_fondo_botones);
 }
 
 .contacto > * {
-    border: 1px solid black;
+    /* border: 1px solid rgb(216, 3, 142); */
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -666,7 +704,7 @@ body {
 
 .contacto {
     display: grid;
-    background-color: pink;
+    background-color: var(--color_fondo_botones);
     gap: 1px;
     grid-template-areas:
     "red_titulo"
@@ -679,7 +717,6 @@ body {
 
 .red_titulo{
     grid-area: red_titulo;
-    background-color: red;
 }
 .red_facebook{
     grid-area: red_facebook;
@@ -701,22 +738,22 @@ body {
 }
 
 .facebook{
-    background-color: green;
+    /* background-color: green; */
 }
 .instagram{
-    background-color: green;
+    /* background-color: green; */
 }
 .whatsapp{
-    background-color: green;
+    /* background-color: green; */
 }
 .linkedin{
-    background-color: green;
+    /* background-color: green; */
 }
 .titulo{
-    background-color: green;
+    /* background-color: green; */
 }
 .youtube{
-    background-color: green;
+    /* background-color: green; */
 }
 
 @media only screen and (max-width: 576px) {
@@ -858,14 +895,14 @@ body {
     }
     .footer{
         display: grid;
-        gap: 5px;
+        gap: 0px;
         padding: 50px 0px 0px 0px;
         grid-template:
-            "preguntas_frecuentes      titulo_contacto"   80px
-            "preguntas_frecuentes      contacto"   80px
+            "preguntas_frecuentes      titulo_contacto"   50px
+            "preguntas_frecuentes      contacto"   50px
             "terminos_condiciones      acerca_de"  auto
             "copyright                 copyright"  26px /
-            50%                        auto;  
+            60%                        auto;  
     }
     .contacto{
         display: grid;

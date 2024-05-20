@@ -134,9 +134,9 @@ const teclas_Programas = (e) => {
         case "carrito":
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion');
-                alert('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion')
+                alert('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion');
             }, 250);
-            break;    
+            break;       
 	}
 }
   const inputs = document.querySelectorAll(".tecla");

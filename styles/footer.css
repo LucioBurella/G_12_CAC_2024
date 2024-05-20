@@ -1,4 +1,6 @@
 /* en la linea 603 arranca el footer hasta la linea 674*/
+.contactos,
+.medios_pago,
 .redes{
         width: 30px;
         height: 30px;
@@ -7,6 +9,7 @@
         text-align: center;
         /* background-color: rgba(47, 79, 79, 0.3); */
         z-index: 1;
+        text-decoration: none
     }
 .redes:hover{
         transform: scale(1.20);
@@ -16,3 +19,17 @@
         transition: all 0.1s ease;
         cursor: pointer;
     }
+.lista{
+    list-style:none;
+    text-align: left;
+    margin-left:30px
+}
+.contenedor_pagos{
+    display:flex
+}
+.info_formas_pago{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 1%;    
+}
+
