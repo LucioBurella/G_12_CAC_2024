@@ -216,7 +216,30 @@
         <div class="formulario_registro_boton_cancelar">
             <button type="button" name="login_cancelar" id="" class="btns">Volver</button>
         </div>
-    </div>    
+    </div>  
+    <div class="distintas_preguntas_contenedor">
+        <div class="dudas" style="display:none" name="como_comprar" id="1" onclick="seleccionar(this.id)">
+            <p><b>¿CÓMO COMPRAR?</b><br>
+                <b>1.</b> Selecciona los productos que te interesan determinando el talle y la cantidad, luego añadilos a tu carrito.                 
+                Si querés agregar más productos, podés seguir navegando y repetir el proceso.                 
+                <b>2.</b> Cuando termines, accede a tu carrito haciendo click en el botón del margen superior derecho del sitio.                
+                Allí aparecerá el resumen de tu compra (producto, cantidad, talle, color, etc) y haz click en el botón “Iniciar compra”.                
+                <b>3.</b> Seguí las instrucciones completando los campos pedidos (información de facturación, información del envío, método de envío, medio de pago, revisión del pedido) y hacé click en el botón "Continuar".
+                Serás redirigido a una ventana de confirmación con los medios de pago habilitados.</p>
+        </div>
+        <div class="dudas" style="display:none" name="envio"id="2" onclick="seleccionar(this.id)">
+            <p><b>Envio</b><br> Tiempo para que un pedido esté listo para ser retirado y enviado puede variar entre 24 a 48 hs. hábiles. Es fundamental que el pago esté confirmado para que el pedido figure como listo para retirar. 
+                Para asegurarte que tu pedido esta listo, revisá el estado del mismo con el número de seguimiento que te enviamos al email. Si realizaste más de una compra, los envíos deben gestionarse por separado incluso si son por el mismo medio, es decir, no es posible unificar envíos.  
+                El medio de envío va a depender de la ubicación a la que necesites realizar tu envío:</p>
+        </div>
+        <div class="dudas" style="display:none" name="guia_talle" id="3" onclick="seleccionar(this.id)">
+            <p><b>¿CÓMO TOMAR LAS MEDIDAS DE MI CUERPO? </b><br>
+                Contorno de busto: Toma la medida del pecho por donde el busto sea mayor, pasando por la espalda, hasta volver al punto de partida.                 
+                Contorno de cintura: Contornear la cintura justo debajo de las costillas, pasando por la espalda, hasta volver al punto de partida.                
+                Contorno de cadera: Toma la medida de cadera aproximadamente a mitad de gluteo, es decir, donde el volumen sea mayor, juntando los 
+                tobillos para no generar centímetros de más. Da toda la vuelta hasta volver al punto de partida. </p>
+        </div>
+    </div>
 </article>
 
 <dialog class="formulario_login_contenedor" style="display: none;">
@@ -249,13 +272,13 @@
     <section class="preguntas_frecuentes">
         <ul class="preguntas_enlace">
             <li class="pregunta">
-                <a href="">¿Como comprar?</a>
+                <a href="#1" onclick="seleccionar('1')">¿Como comprar?</a>
             </li>
             <li class="pregunta">
-                <a href="">Envio</a>
+                <a href="#2" onclick="seleccionar('2')">Envio</a>
             </li>
             <li class="pregunta">
-                <a href="">Guia de talles</a>
+                <a href="#3" onclick="seleccionar('3')">Guia de talles</a>
             </li>
         </ul>
     </section>
