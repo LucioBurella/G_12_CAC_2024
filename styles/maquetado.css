@@ -10,6 +10,8 @@
         --color_transparente: transparent;
         --color_fondo_produccion: rgba(245, 245, 220, 1);
         --color_fondo_botones: rgba(197, 197, 145,1);
+        --color_borde_productos: #e0e0e0;
+        --color_fondo_productos: whitesmoke;
 }
 * {
     margin: 0;/*margen en 0*/
@@ -167,6 +169,17 @@ body {
     list-style: none;
 }
 
+
+.boton_nav:hover{
+    transform: scale(1.01);
+    opacity: 1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), /* Sombra externa suave */
+    -2px -2px 5px rgba(255, 255, 255, 0.8); /* Sombra clara para dar efecto de luz */
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+
 .noticias>* {
     border: 1px solid black;
     border-radius: 5px;
@@ -266,8 +279,8 @@ body {
 }
 
 .productos>* {
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid var(--color_borde_productos);
+    border-radius: 20px;
     padding: 5px;
     text-align: center;
 }
@@ -288,39 +301,39 @@ body {
     grid-area: prenda_1;
     margin-top: 5%;
     /* background-color: crimson; */
-    background-color: transparent;
+    background-color: var(--color_fondo_produccion);
 }
 
 .prenda_2 {
     grid-area: prenda_2;
     margin-top: 5%;
     /* background-color: aqua; */
-    background-color: transparent;
+    background-color: var(--color_fondo_produccion);
 }
 
 .prenda_3 {
     grid-area: prenda_3;
     margin-top: 5%;
     /* background-color: aqua; */
-    background-color: transparent;
+    background-color: var(--color_fondo_produccion);
 }
 
 .prenda_4 {
     grid-area: prenda_4;
     /* background-color: aqua; */
-    background-color: transparent;
+    background-color: var(--color_fondo_produccion);
 }
 
 .prenda_5 {
     grid-area: prenda_5;
     /* background-color: aqua; */
-    background-color: transparent;
+    background-color: var(--color_fondo_produccion);
 }
 
 .prenda_6 {
-    /* grid-area: prenda_6; */
-    background-color: aqua;
-    background-color: transparent;
+    grid-area: prenda_6;
+    /* background-color: aqua; */
+    background-color: var(--color_fondo_produccion);
 }
 
 .prenda_1>* {
@@ -353,12 +366,12 @@ body {
 
 .tipo_precio_1 {
     grid-area: tipo_precio_1;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .tipo_boton_comprar_1 {
     grid-area: tipo_boton_comprar_1;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .tipo_boton_favorito_1 {
@@ -396,12 +409,12 @@ body {
 
 .tipo_precio_2 {
     grid-area: tipo_precio_2;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .tipo_boton_comprar_2 {
     grid-area: tipo_boton_comprar_2;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .tipo_boton_favorito_2 {
@@ -439,12 +452,12 @@ body {
 
 .tipo_precio_3 {
     grid-area: tipo_precio_3;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .tipo_boton_comprar_3 {
     grid-area: tipo_boton_comprar_3;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .tipo_boton_favorito_3 {
@@ -482,12 +495,12 @@ body {
 
 .tipo_precio_4 {
     grid-area: tipo_precio_4;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .tipo_boton_comprar_4 {
     grid-area: tipo_boton_comprar_4;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .tipo_boton_favorito_4 {
@@ -525,12 +538,12 @@ body {
 
 .tipo_precio_5 {
     grid-area: tipo_precio_5;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .tipo_boton_comprar_5 {
     grid-area: tipo_boton_comprar_5;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .tipo_boton_favorito_5 {
@@ -568,12 +581,12 @@ body {
 
 .tipo_precio_6 {
     grid-area: tipo_precio_6;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .tipo_boton_comprar_6 {
     grid-area: tipo_boton_comprar_6;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .tipo_boton_favorito_6 {
@@ -599,7 +612,7 @@ body {
 }
 .contacto{
     grid-area: contacto;
-    background-color: gold;
+    background-color: var(--color_fondo_produccion);
 }
 .acerca_de{
     grid-area: acerca_de;
@@ -623,8 +636,29 @@ body {
     background-color: var(--color_fondo_produccion);
 
 }
-.contacto > * {
+
+
+.titulo_contacto > * {
     border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+
+.titulo_contacto {
+    display: grid;
+    background-color: brown;
+    gap: 1px;
+    grid-template-areas:
+    "titulo_contacto";
+}
+.titulo_contacto{
+    grid-area: titulo_contacto;
+    background-color: red;
+}
+
+.contacto > * {
+    border: 1px solid black;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -632,31 +666,57 @@ body {
 
 .contacto {
     display: grid;
+    background-color: pink;
     gap: 1px;
     grid-template-areas:
-    "red_x"
+    "red_titulo"
+    "red_facebook"
     "red_linkedin"
     "red_instagram"
-    "red_youtube";
+    "red_youtube"
+    "red_whtasApp";
 }
-.red_x{
-    grid-area: red_x;
-    background-color: gold;
+
+.red_titulo{
+    grid-area: red_titulo;
+    background-color: red;
+}
+.red_facebook{
+    grid-area: red_facebook;
 }
 
 .red_linkedin{
     grid-area: red_linkedin;
-    background-color: gold;
 }
 
 .red_instagram{
     grid-area: red_instagram;
-    background-color: gold;
 }
 
 .red_youtube{
     grid-area: red_youtube;
-    background-color: gold;
+}
+.red_whtasApp{
+    grid-area: red_whtasApp
+}
+
+.facebook{
+    background-color: green;
+}
+.instagram{
+    background-color: green;
+}
+.whatsapp{
+    background-color: green;
+}
+.linkedin{
+    background-color: green;
+}
+.titulo{
+    background-color: green;
+}
+.youtube{
+    background-color: green;
 }
 
 @media only screen and (max-width: 576px) {
@@ -801,7 +861,8 @@ body {
         gap: 5px;
         padding: 50px 0px 0px 0px;
         grid-template:
-            "preguntas_frecuentes      contacto"   60px
+            "preguntas_frecuentes      titulo_contacto"   80px
+            "preguntas_frecuentes      contacto"   80px
             "terminos_condiciones      acerca_de"  auto
             "copyright                 copyright"  26px /
             50%                        auto;  
@@ -811,8 +872,23 @@ body {
         gap: 5px;
         justify-content: center;
         grid-template:
-            "red_x  red_linkedin    red_instagram   red_youtube" auto /
-            10%     10%             10%             10%;
+            "titulo_contacto    titulo_contacto titulo_contacto titulo_contacto titulo_contacto"auto
+            "red_facebook       red_linkedin    red_instagram   red_youtube     red_whtasApp" auto /
+            5%                  5%              5%              5%              5%             ;
+    }
+    .img_cabecera{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_cabecera:hover{
+        transform: scale(0.9);
+        opacity: 1;
+        box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.8), /* Sombra externa suave */
+        -0.5px -0.5px 1.5px rgba(255, 255, 255, 0.8); /* Sombra clara para dar efecto de luz */
+        transition: all 0.3s ease;
+        cursor: pointer;
     }
     .img_cabecera img{
         width: 120px;
@@ -885,16 +961,33 @@ body {
     }
     .carrito_1{
         width: 100%;
-        height: 70px;
+        height: 100%;
         margin: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+    .carrito_1 img{
+        width: 50px;
+        height: 50px;
+        opacity: 0.6;
+    }
+    
     .boton_carrito{
-        width: 60%;
-        height: 60%;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        border: none;
+    }
+    .carrito_compras:hover{
+        transform: scale(1.01);
+        opacity: 1;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8), /* Sombra externa suave */
+        -1px -1px 3px rgba(255, 255, 255, 0.8); /* Sombra clara para dar efecto de luz */
+        transition: all 0.1s ease;
+        cursor: pointer;
     }
     .div_noticia_1_imagen,
     .div_noticia_2_imagen,
@@ -932,7 +1025,6 @@ body {
         padding: auto;
         font-size: 12px;
         font-weight: 600;
-        
     }
     .filtro_1,
     .filtro_2,
@@ -964,6 +1056,28 @@ body {
         user-select: none;
         outline: none;
     }
+
+    .boton_filtro_1:hover,
+    .boton_filtro_2:hover,
+    .boton_filtro_3:hover,
+    .boton_filtro_4:hover,
+    .boton_filtro_5:hover,
+    .boton_filtro_6:hover{
+        transform: scale(1.02);
+        opacity: 1;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), /* Sombra externa suave */
+        -2px -2px 5px rgba(255, 255, 255, 0.8); /* Sombra clara para dar efecto de luz */
+        transition: all 0.1s ease;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
     .boton_filtro_1 img,
     .boton_filtro_2 img,
     .boton_filtro_3 img,
@@ -975,6 +1089,11 @@ body {
         z-index: -10;
         user-select: none;
     }
+
+
+
+
+    
     .tipo_prenda_1,
     .tipo_prenda_2,
     .tipo_prenda_3,
@@ -987,16 +1106,55 @@ body {
         align-items: center;
     }
 
-    .tipo_prenda_1 img {
+    .prenda_1:hover, 
+    .prenda_2:hover, 
+    .prenda_3:hover, 
+    .prenda_4:hover, 
+    .prenda_5:hover, 
+    .prenda_6:hover{
+        transform: scale(1.06);
+        opacity: 1;
+        box-shadow:
+        2px 2px 2px 0 #7b7b7b inset,
+        -2px -2px 3px 0 #ffffff inset;
+    }
+
+    .tipo_prenda_1 img{
         border-radius: 5px;
-        width: 65%;
+        width: 70%;
         height: 100%;   
+        opacity: 0.8;
     }
     .tipo_prenda_2 img{
         border-radius: 5px;
-        width: 65%;
-        height: 100%;
+        width: 70%;
+        height: 100%;   
+        opacity: 0.8;
     }
+    .tipo_prenda_3 img{
+        border-radius: 5px;
+        width: 70%;
+        height: 100%;   
+        opacity: 0.8;
+    }
+    .tipo_prenda_4 img{
+        border-radius: 5px;
+        width: 70%;
+        height: 100%;   
+        opacity: 0.8;
+    }
+    .tipo_prenda_5 img,
+    .tipo_prenda_6 img{
+        border-radius: 5px;
+        width: 70%;
+        height: 100%;   
+        opacity: 0.8;
+    }
+    /* .tipo_prenda_2 img{
+        border-radius: 5px;
+        width: 80%;
+        height: 120%;
+    } */
     .tipo_descripcion_1,
     .tipo_descripcion_2,
     .tipo_descripcion_3,
@@ -1032,7 +1190,6 @@ body {
         height: 40%;
         margin: auto;
     }
-
     .me_gusta_1,
     .me_gusta_2,
     .me_gusta_3,
@@ -1055,6 +1212,6 @@ body {
         justify-content: center;
         align-items: center;
     }
-
 }
+
 

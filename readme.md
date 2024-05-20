@@ -5,7 +5,7 @@
 - Mario Gonzalez
 - Lucio
 - Alex
-- Leo
+- Leonardo Di Francesco
 - Garay
 
 ## Descripción

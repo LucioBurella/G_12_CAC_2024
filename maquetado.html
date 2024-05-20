@@ -6,11 +6,13 @@
     <title>Tienda Grupo_12</title>
     <link rel="stylesheet" href="/styles/maquetado.css">
     <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body class="tienda_grupo_12">
 <header class="cabecera">
+
     <section class="img_cabecera">
-        <input class=" tecla" name="logo_inicio" src="./img/front/logo_05.png" type="image" />
+        <input class="boton_logo tecla" name="logo_inicio" src="./img/front/logo_05.png" type="image" />
     </section>
 
     <section class="cuadro_busqueda">
@@ -30,7 +32,9 @@
 
     <section class="carrito_compras">
         <div class="carrito_1">
-            <input class="boton_carrito tecla" name="carrito" src="./img/front/carrito-de-compras.png" type="image" />
+            <button class="boton_carrito tecla" name="carrito">
+                <img src="./img/front/carrito-de-compras.png" alt="">
+            </button>
         </div>
     </section>
 
@@ -95,7 +99,7 @@
 
 <aside class="filtros">
     <section class="filtro_1">
-            <input class="boton_filtro_1 tecla" name="remeras" value="Remeras"/>
+        <input class="boton_filtro_1 tecla" name="remeras" value="Remeras"/>
     </section>
     <section class="filtro_2">
         <input class="boton_filtro_2 tecla" name="pantalon" value="Pantalones"/>
@@ -118,11 +122,11 @@
 
     <div class="prenda_1">
         <div class="tipo_prenda_1">
-            <img src="./img/Hardcoding/Remeras/Remeras_3.jpg" alt="">
-        </div>
+            <img src="./img/Hardcoding/Remeras/Remeras_3.png" alt="">
+        </div> 
         <div class="tipo_descripcion_1">
             <P>Remera de algodon 1ra calidad</P>
-            <P>con dibujo estampado</P>
+            <P></P>
         </div>
         <div class="tipo_precio_1">Precio</div>
         <div class="tipo_boton_comprar_1">Comprar</div>
@@ -133,9 +137,12 @@
 
     <div class="prenda_2">
         <div class="tipo_prenda_2">
-            <img src="./img/Hardcoding/Remeras/Remeras_4.jpg" alt="">          
+            <img src="./img/Hardcoding/Remeras/Remeras_4.png" alt="">          
         </div>
-        <div class="tipo_descripcion_2">Descripcion</div>
+        <div class="tipo_descripcion_2">
+            <P>Remera de algodon 1ra calidad</P>
+            <P>con estampado</P>
+        </div>
         <div class="tipo_precio_2">Precio</div>
         <div class="tipo_boton_comprar_2">Comprar</div>
         <div class="tipo_boton_favorito_2">
@@ -143,8 +150,13 @@
         </div>
     </div>
     <div class="prenda_3">
-        <div class="tipo_prenda_3">Imagen</div>
-        <div class="tipo_descripcion_3">Descripcion</div>
+        <div class="tipo_prenda_3">
+            <img src="./img/Hardcoding/Remeras/Remeras_5.png" alt="">          
+        </div>
+        <div class="tipo_descripcion_3">
+            <P>Remera de termica con imagenes</P>
+            <P></P>
+        </div>
         <div class="tipo_precio_3">Precio</div>
         <div class="tipo_boton_comprar_3">Comprar</div>
         <div class="tipo_boton_favorito_3">
@@ -242,11 +254,35 @@
 <footer class="footer">
     <section class="preguntas_frecuentes">Preguntas frecuentes</section>
     <section class="terminos_condiciones">Terminos y condiciones</section>
-    <section class="contacto">
-        <section class="red_x">X</section>
-        <section class="red_linkedin">linkedin</section>
-        <section class="red_instagram">instagram</section>
-        <section class="red_youtube">youtube</section>
+    <section class="titulo_contacto">
+        <h3>titulo</h3>
+    </section>
+    <section class="contacto"> 
+         <section class="red_facebook">
+            <div class="facebook">
+                <!-- <a href="https://www.facebook.com/"><img src="./img/front/facebook.png" type="image" class ="redes"></a> -->
+            </div>
+        </section>
+        <section class="red_instagram">
+            <div class="instagram">
+                <!-- <a href="https://www.instagram.com/"><img src="./img/front/instagram.png" type="image" class ="redes"></a> -->
+            </div>
+        </section>
+        <section class="red_linkedin">
+            <div class="youtube">
+                <!-- <a href="https://www.linkedin.com/"><img src="./img/front/linkedin.png" type="image" class ="redes"></a> -->
+            </div> 
+        </section>
+        <section class="red_youtube">
+            <div class="linkedin">
+                <!-- <a href="https://www.youtube.com/"><img src="./img/front/youtube.png" type="image" class ="redes"></a> -->
+            </div>           
+        </section>
+        <section class="red_whtasApp">
+            <div class="wahtsapp">
+                <a href="https://web.whatsapp.com/"><img src="./img/front/whatsapp.png" type="image" class ="redes"></a>
+            </div>           
+        </section> 
     </section>
     <section class="acerca_de">Acerca de</section>
     <section class="copyright">
