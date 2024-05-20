@@ -8,7 +8,7 @@
         --radio_borde_botones: 10px;
         --grosor_borde_botones: 1px;
         --color_transparente: transparent;
-        --color_fondo_produccion: rgba(245, 245, 220, 1);        
+        --color_fondo_produccion: rgba(245, 245, 220, 1);
         --color_fondo_botones: rgba(197, 197, 145,1);
         --color_borde_productos: #e0e0e0;
         --color_fondo_productos: whitesmoke;
@@ -612,7 +612,7 @@ body {
 }
 .contacto{
     grid-area: contacto;
-    background-color: gold;
+    background-color: var(--color_fondo_produccion);
 }
 .acerca_de{
     grid-area: acerca_de;
@@ -637,7 +637,7 @@ body {
 
 }
 .contacto > * {
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -645,31 +645,57 @@ body {
 
 .contacto {
     display: grid;
+    background-color: pink;
     gap: 1px;
     grid-template-areas:
-    "red_x"
+    "red_titulo"
+    "red_facebook"
     "red_linkedin"
     "red_instagram"
-    "red_youtube";
+    "red_youtube"
+    "red_whtasApp";
 }
-.red_x{
-    grid-area: red_x;
-    background-color: gold;
+
+.red_titulo{
+    grid-area: red_titulo;
+    background-color: red;
+}
+.red_facebook{
+    grid-area: red_facebook;
 }
 
 .red_linkedin{
     grid-area: red_linkedin;
-    background-color: gold;
 }
 
 .red_instagram{
     grid-area: red_instagram;
-    background-color: gold;
 }
 
 .red_youtube{
     grid-area: red_youtube;
-    background-color: gold;
+}
+.red_whtasApp{
+    grid-area: red_whtasApp
+}
+
+.facebook{
+    background-color: green;
+}
+.instagram{
+    background-color: green;
+}
+.whatsapp{
+    background-color: green;
+}
+.linkedin{
+    background-color: green;
+}
+.titulo{
+    background-color: green;
+}
+.youtube{
+    background-color: green;
 }
 
 @media only screen and (max-width: 576px) {
@@ -814,7 +840,8 @@ body {
         gap: 5px;
         padding: 50px 0px 0px 0px;
         grid-template:
-            "preguntas_frecuentes      contacto"   60px
+            "preguntas_frecuentes      contacto"   80px
+            "preguntas_frecuentes      contacto"   80px
             "terminos_condiciones      acerca_de"  auto
             "copyright                 copyright"  26px /
             50%                        auto;  
@@ -824,8 +851,8 @@ body {
         gap: 5px;
         justify-content: center;
         grid-template:
-            "red_x  red_linkedin    red_instagram   red_youtube" auto /
-            10%     10%             10%             10%;
+            "red_facebook  red_linkedin    red_instagram   red_youtube  red_whtasApp" auto /
+            5%              5%                5%             5%         5%             ;
     }
     .img_cabecera{
         display: flex;

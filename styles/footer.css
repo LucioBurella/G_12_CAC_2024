@@ -1,1 +1,18 @@
-/* en la linea 603 arranca el footer hasta la linea 674
+/* en la linea 603 arranca el footer hasta la linea 674*/
+.redes{
+        width: 30px;
+        height: 30px;
+        border-radius: 2px;
+        padding: 1px;
+        text-align: center;
+        /* background-color: rgba(47, 79, 79, 0.3); */
+        z-index: 1;
+    }
+.redes:hover{
+        transform: scale(1.20);
+        opacity: 1;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), /* Sombra externa suave */
+        -2px -2px 5px rgba(255, 255, 255, 0.8); /* Sombra clara para dar efecto de luz */
+        transition: all 0.1s ease;
+        cursor: pointer;
+    }
