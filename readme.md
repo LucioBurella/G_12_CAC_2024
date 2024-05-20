@@ -2,19 +2,19 @@
 
 
 ## Integrantes del grupo 12 comision 24255
-- Mario Gonzalez
-- Lucio
-- Alex
-- Leonardo Di Francesco
-- Garay
+
+- Gonzalez Mario   
+- Burella Lucio
+- Di Francesco Leonardo
+- Garay Tomas 
 
 ## Descripción
 
 Este proyecto consiste en el desarrollo de una página web para una tienda de ropa. La página estará diseñada para mostrar una variedad de productos de moda y facilitar la experiencia de compra para los usuarios. El sistema venderá ropa en línea y contará con un login para entrar y comprar, así como un formulario CRUD para la administración de los elementos que se venden en esta página.
 
-## Pagina WEB
+## Page WEB GitHub
 
-
+https://lucioburella.github.io/G_12_CAC_2024/
 
 
 ## Tecnologías utilizadas (lenguajes)
