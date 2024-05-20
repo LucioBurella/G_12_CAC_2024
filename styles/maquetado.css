@@ -636,8 +636,29 @@ body {
     background-color: var(--color_fondo_produccion);
 
 }
-.contacto > * {
+
+
+.titulo_contacto > * {
     border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 1px;
+    text-align: center;
+}
+
+.titulo_contacto {
+    display: grid;
+    background-color: brown;
+    gap: 1px;
+    grid-template-areas:
+    "titulo_contacto";
+}
+.titulo_contacto{
+    grid-area: titulo_contacto;
+    background-color: red;
+}
+
+.contacto > * {
+    border: 1px solid black;
     border-radius: 2px;
     padding: 1px;
     text-align: center;
@@ -840,7 +861,7 @@ body {
         gap: 5px;
         padding: 50px 0px 0px 0px;
         grid-template:
-            "preguntas_frecuentes      contacto"   80px
+            "preguntas_frecuentes      titulo_contacto"   80px
             "preguntas_frecuentes      contacto"   80px
             "terminos_condiciones      acerca_de"  auto
             "copyright                 copyright"  26px /
@@ -851,8 +872,9 @@ body {
         gap: 5px;
         justify-content: center;
         grid-template:
-            "red_facebook  red_linkedin    red_instagram   red_youtube  red_whtasApp" auto /
-            5%              5%                5%             5%         5%             ;
+            "titulo_contacto    titulo_contacto titulo_contacto titulo_contacto titulo_contacto"auto
+            "red_facebook       red_linkedin    red_instagram   red_youtube     red_whtasApp" auto /
+            5%                  5%              5%              5%              5%             ;
     }
     .img_cabecera{
         display: flex;
