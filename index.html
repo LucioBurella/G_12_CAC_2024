@@ -1,151 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/407496babf.js" crossorigin="anonymous"></script>
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/index.css">
-    <link rel="stylesheet" href="/styles/login.css">
-    <link rel="stylesheet" href="/styles/crud.css">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Tienda Grupo_12</title>
+    <link rel="stylesheet" href="./styles/maquetado.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
+<body class="tienda_grupo_12">
+<header class="cabecera">
 
-<body>
-    <header>
+    <section class="img_cabecera">
+        <input class="boton_logo tecla" name="logo_inicio" src="./img/front/logo_05.png" type="image" />
+    </section>
 
-        <nav class="navbar" style="background-color: royalblue;">
-            <div class="container-fluid">
-                <div class="Barra_Color">
-                    <a class="navbar-brand">Tienda de Ropa</a>
-                </div>
+    <section class="cuadro_busqueda">
+        <input type="text" class="input_busqueda" name="" id=""
+            placeholder="Busca prendas marcas y todo lo que te gusta...">
+        <input class="boton_busqueda tecla" name="buscar" src="./img/front/lupa.png" type="image" />
+    </section>
 
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Nombre de Usuario" aria-label="Search">
-                    <label for="" style="text-transform: uppercase; font-weight: 500;">Bienvenido Nombre del usuario</label>
-                    <div class="Carrito_Compras">
-                       
-                    <a href=""> <i class="bi bi-cart-fill" style="color: black;"></i></a>
-                    
-                    </div>
-                </form>
-            </div>
-            <div class="Prueba"> 
-                <ul class="UL_Diseño">
-                <li class="Prueba">
-                    <a href="" class="bottons_nav" onclick="">
-                        <i class="fa-solid fa-house"></i>
-                        Inicio
-                    </a>
-                </li>
-                
-                <li class="Prueba">
-                    <a href="" class="bottons_nav" onclick="">
-                        <i class="fa-solid fa-shirt"></i>
-                        Productos
-                    </a>    
-                </li>    
-            
-                <li class="Prueba">
-                    <a href="" class="bottons_nav" onclick="">
-                        <i class="fa-solid fa-user"></i>
-                        Login
-                    </a>    
-                </li>
-
-                <li class="Prueba " style="display: none;" onclick="">
-                    <a href="" class="bottons_nav">
-                        <i class="fa-solid fa-pen"></i>
-                        Administrar
-                    </a>    
-                </li>
-            
-                <li class="Prueba" onclick="">
-                    <a href="" class="bottons_nav">
-                        <i class="fa-solid fa-address-card"></i>
-                        Acerca de
-                    </a>    
-                </li>
-                <li class="Prueba" onclick="">
-                    <a href="" class="bottons_nav">
-                        <i class="fa-solid fa-address-book"></i>
-                        Contacto
-                    </a>    
-                </li>
-
-                <li class="Prueba" onclick="">
-                    <a href="" class="bottons_nav">
-                        <i class="fa-solid fa-star"></i>
-                        Favoritos
-                    </a>
-                </li> 
-            </ul>
+    <section class="nombre_usuario">
+        <div class="nombre_usuario_1">
+            <p>Bienvenido: </p>
         </div>
-        </nav>
-    </header>
-</body>
-
-
-<main class="main-content">
-    <!-- INFO DE NUESTRA TIENDA -->
-    <section class="container container-features">
-        <div class="card-features">
-            <i class="fa-solid fa-car"></i>
-            <div class="feature-content">
-                <span>Envio gratis a toda Argentina</span>
-                <p>En pedidos superiores a 30.000$</p>
-            </div>
-        </div>
-
-        <div class="card-features">
-            <i class="fa-solid fa-wallet"></i>
-            <div class="feature-content">
-                <span>3 cuotas sin interés</span>
-                <p>Con todas las tarjetas seleccionadas</p>
-            </div>
-        </div>
-
-        <div class="card-features">
-            <i class="fa-solid fa-headset"></i>
-            <div class="feature-content">
-                <span>Atención personalizada 24/7</span>
-                <p>543214509</p>
-            </div>
+        <div class="nombre_usuario_2">
+            <p>Mario</p>
         </div>
     </section>
 
-    <!-- SUGERENCIA DE CATEGORIAS -->
-    <section class="container top-categories">
-        <h1 class="heading-1">Mejores categorias</h1>
-        <div class="container-categories">
-            <div class="card-category category-remeras">
-                <p>Remeras</p>
-                <span>ver más</span>
-            </div>
-            <div class="card-category category-pantalones">
-                <p>Pantalones</p>
-                <span>ver más</span>
-            </div>
-            <div class="card-category category-accesorios">
-                <p>Accesorios</p>
-                <span>ver más</span>
-            </div>
+    <section class="carrito_compras">
+        <div class="carrito_1">
+            <button class="boton_carrito tecla" name="carrito">
+                <img src="./img/front/carrito-de-compras.png" alt="">
+            </button>
         </div>
     </section>
 
-    <!-- PRODUCTOS DESTACADOS -->
-    <section>
-        <div class="container top-categories">
-            <h1 class="heading-1">Mejores Productos</h1>
-        </div>
+    <nav class="navbar">
+        <ul class="nav_menu">
+            <li class="contenedor_botones">
+                <button class="boton_nav tecla" id="inicio" name="inicio">Inicio</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav tecla" id="categorias" name="categorias">Categorias</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav tecla" id="productos" name="productos">Productos</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav tecla" id="nosotros" name="acerca">Acerca</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav tecla" id="contacto" name="contacto">Contacto</button>
+            </li>
+            <li class="contenedor_botones">
+                <button class="boton_nav tecla" id="login" name="login">Login</button>
+            </li>
+            <li class="contenedor_botones"style="display: none;">
+                <button class="boton_nav tecla" id="admin" name="administrador">Administrador</button>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-        <div class="container-options">
-            <span class="active">Destacados</span>
-            <span>En oferta</span>
-            <span>Más vendidos</span>
+<section class="noticias">
+    <section class="noticia_1">
+        <div class="div_noticia_1_imagen">
+            <img src="./img/front/camion.png" alt="">
+        </div>
+        <div class="div_noticia_1_parrafo">
+            <h2>Eníos gratis a todo el país en 48hs</h2>
+            <p>Ventas mayores a $30,000</p>
+        </div>
+    </section>
+    <section class="noticia_2">
+        <div class="div_noticia_2_imagen">
+            <img src="./img/front/tarjeta-de-credito.png" alt="">
+        </div>
+        <div class="div_noticia_2_parrafo">
+            <h2>3 Cuotas sin interes</h2>
+            <p>Con todos las tarjetas seleccionadas</p>
+        </div>
+    </section>
+
+    <section class="noticia_3">
+        <div class="div_noticia_3_imagen">
+            <img src="./img/front/auricular.png" alt="">
+        </div>
+        <div class="div_noticia_3_parrafo">
+            <h2>3 Cuotas sin interes</h2>
+            <p>Con todos las tarjetas seleccionadas</p>
+        </div>
+    </section>
+
+</section>
+
+<aside class="filtros">
+    <section class="filtro_1">
+        <input class="boton_filtro_1 tecla" name="remeras" value="Remeras"/>
+    </section>
+    <section class="filtro_2">
+        <input class="boton_filtro_2 tecla" name="pantalon" value="Pantalones"/>
+    </section>
+    <section class="filtro_3">
+        <input class="boton_filtro_3 tecla" name="camisa" value="Camisas"/>  
+    </section>
+    <section class="filtro_4">
+        <input class="boton_filtro_4 tecla" name="camperas" value="Camperas"/>      
+    </section>
+    <section class="filtro_5">
+        <input class="boton_filtro_5 tecla" name="gorras" value="Gorras"/> 
+    </section>
+    <section class="filtro_6">
+        <input class="boton_filtro_4 tecla" name="accesorios" value="Accesorios"/> 
+    </section>
+</aside>
+
+<article class="productos">
+
+    <div class="prenda_1">
+        <div class="tipo_prenda_1">
+            <img src="./img/Hardcoding/Remeras/Remeras_3.png" alt="">
+        </div> 
+        <div class="tipo_descripcion_1">
+            <P>Remera de algodon 1ra calidad</P>
+            <P></P>
+        </div>
+        <div class="tipo_precio_1">Precio</div>
+        <div class="tipo_boton_comprar_1">Comprar</div>
+        <div class="tipo_boton_favorito_1">
+            <input class="me_gusta_1 tecla" id="me_gusta_1" name="me_gusta_1" src="./img/front/me_gusta_vacio.png" type="image" />
+        </div>
+    </div>
+
+    <div class="prenda_2">
+        <div class="tipo_prenda_2">
+            <img src="./img/Hardcoding/Remeras/Remeras_4.png" alt="">          
+        </div>
+        <div class="tipo_descripcion_2">
+            <P>Remera de algodon 1ra calidad</P>
+            <P>con estampado</P>
         </div>
 
         <!-- PRODUCTOS RECOMENDADOS  -->
@@ -154,12 +150,21 @@
             <!-- Producto 1 // Remera oversize -->
             <div class="card-product">
                 <div class="container-img">
+<<<<<<< HEAD
                     <img src="img/" alt="">
                     <span class="discount">-14%</span>
                             <div class="button-group">
                                 <span>
                                     <i class="fa-regular fa-eye"></i>
                                 </span>
+=======
+                    <img src="img/remera2.jpg" alt="">
+                    <span class="discount" -14%></span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+>>>>>>> 9fd4194685f6fdceb105e5970313bd6cd428e264
 
                                 <span>
                                     <i class="fa-regular fa-heart"></i>
@@ -175,7 +180,10 @@
                     <h3>Remera oversize</h3>
                     <span class="add-cart">
                         <i class="fa-solid fa-cart-plus"></i>
+<<<<<<< HEAD
                         Agregar al carrito
+=======
+>>>>>>> 9fd4194685f6fdceb105e5970313bd6cd428e264
                     </span>
                     <p class="price">25.000$ <span>22.000$</span></p>
                 </div>
@@ -242,82 +250,186 @@
 
             </div>
 
-            <!-- Producto 4 // Zapatilla -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/zapatillas.jpg" alt="">
-                    <span class="discount" -14%></span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
 
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-
-                        <span>
-                            <i class="fa-regular fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="content-card-product">
-                    <h3>Zapatilla adidas forum</h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-cart-plus"></i>
-                    </span>
-                    <p class="price">25.000$ <span>22.000$</span></p>
-                </div>
-
-            </div>
-
+    <div class="preguntas_frecuentes" style="display: none;">
+        <div class="preguntas_frecuentes">
+            <h1>pregunta</h1>
         </div>
-    </section>
-</main>
+    </div>    
 
-
-
-<footer>
-    <div class=" master-footer">
-        <div class="header-footer">
-            <div class="body-footer">
-                <ul class="columna1">
-                    <h3>acerca de nosotros</h3>
-                    <p><i>A CERCA DE NOSOTROS</i> alguna descripcion</p>
-                </ul>
-                <ul class="social-icons">
-
-                    <h3>Contacto</h3>
-                    <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <h3>direccion y telefono</h3>
-                    <h4>alguna direccion</h4>
-                    <h4>algun telefono</h4>
-
-                </ul>
-                <ul class="columna3">
-                    <h3>UBICACIógN</h3>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.4749420937355!2d-64.18969121911584!3d-31.42858933044322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28ddf861391%3A0xc0fdcfc930551a76!2sPlaza%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1713400868971!5m2!1ses-419!2sar"
-                        width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </ul>
-            </div>
-            <hr>
+    <div class="formulario_registro_contenedor" style="display: none;">
+        <div class="formulario_registro_titulo">
+            <h1>Registro</h1>
+          </div>
+          <div class="formulario_registro_input">
+            <input type="text" name="" id="" placeholder="ingrese apellido" class="input_login">
+            <input type="text" name="" id="" placeholder="ingrese nombre" class="input_login">
+            <input type="text" name="" id="" placeholder="ingrese DNI" class="input_login">
+            <input type="date" name="" id="" placeholder="ingrese fecha de nacimiento" class="input_login">
+            <input type="text" name="" id="" placeholder="ingrese email" class="input_login">
+            <input type="text" name="" id="" placeholder="ingrese password" class="input_login">
         </div>
-        <div class="footer-footer">
-            <div class="contenedor-footer">
-                <div class="columna4">
-                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
-                        <a href="#">Tienda de ropa</a>.
-                    </p>
-                </div>
-            </div>
+        <div class="formulario_registro_boton_aceptar">
+            <button type="button" name="login_aceptar" id="" class="btns">Grabar</button>
+        </div>
+        <div class="formulario_registro_boton_cancelar">
+            <button type="button" name="login_cancelar" id="" class="btns">Volver</button>
+        </div>
+    </div>  
+    <div class="distintas_preguntas_contenedor">
+        <div class="dudas" style="display:none" name="como_comprar" id="1" onclick="seleccionar(this.id)">
+            <p><b>¿CÓMO COMPRAR?</b><br>
+                <b>1.</b> Selecciona los productos que te interesan determinando el talle y la cantidad, luego añadilos a tu carrito.                 
+                Si querés agregar más productos, podés seguir navegando y repetir el proceso.                 
+                <b>2.</b> Cuando termines, accede a tu carrito haciendo click en el botón del margen superior derecho del sitio.                
+                Allí aparecerá el resumen de tu compra (producto, cantidad, talle, color, etc) y haz click en el botón “Iniciar compra”.                
+                <b>3.</b> Seguí las instrucciones completando los campos pedidos (información de facturación, información del envío, método de envío, medio de pago, revisión del pedido) y hacé click en el botón "Continuar".
+                Serás redirigido a una ventana de confirmación con los medios de pago habilitados.</p>
+        </div>
+        <div class="dudas" style="display:none" name="envio"id="2" onclick="seleccionar(this.id)">
+            <p><b>Envio</b><br> Tiempo para que un pedido esté listo para ser retirado y enviado puede variar entre 24 a 48 hs. hábiles. Es fundamental que el pago esté confirmado para que el pedido figure como listo para retirar. 
+                Para asegurarte que tu pedido esta listo, revisá el estado del mismo con el número de seguimiento que te enviamos al email. Si realizaste más de una compra, los envíos deben gestionarse por separado incluso si son por el mismo medio, es decir, no es posible unificar envíos.  
+                El medio de envío va a depender de la ubicación a la que necesites realizar tu envío:</p>
+        </div>
+        <div class="dudas" style="display:none" name="guia_talle" id="3" onclick="seleccionar(this.id)">
+            <p><b>¿CÓMO TOMAR LAS MEDIDAS DE MI CUERPO? </b><br>
+                Contorno de busto: Toma la medida del pecho por donde el busto sea mayor, pasando por la espalda, hasta volver al punto de partida.                 
+                Contorno de cintura: Contornear la cintura justo debajo de las costillas, pasando por la espalda, hasta volver al punto de partida.                
+                Contorno de cadera: Toma la medida de cadera aproximadamente a mitad de gluteo, es decir, donde el volumen sea mayor, juntando los 
+                tobillos para no generar centímetros de más. Da toda la vuelta hasta volver al punto de partida. </p>
         </div>
     </div>
-</footer>
+</article>
 
+<dialog class="formulario_login_contenedor" style="display: none;">
+    <div class="formulario_login_titulo">
+        <h1>Login</h1>
+      </div>
+    <div class="formulario_login_user">
+        <input type="text" name="" id="" placeholder="ingrese nombre de usuario" class="input_login">
+    </div>
+    <div class="formulario_login_pass">
+        <input type="text" name="" id="" placeholder="ingrese password" class="input_login">
+    </div>
+    <div class="formulario_login_botones">
+        <div class="formulario_login_boton_aceptar">
+            <button type="button" name="login_aceptar" id="" class="btns">Ingresar</button>
+        </div>
+        <div class="formulario_login_boton_cancelar">
+            <button type="button" name="login_cancelar" id="" class="btns">Cancelar</button>
+        </div>
+        <div class="formulario_login_boton_registro">
+            <button type="button" name="login_registro" id="" class="btns">Registrarse</button>
+        </div>
+    </div>
+    <div class="autores">
+        <h3>Grupo 12 CaC</h3>
+    </div>
+</dialog>
+
+<footer class="footer">
+    <section class="preguntas_frecuentes">
+        <ul class="preguntas_enlace">
+            <li class="pregunta">
+                <a href="#1" onclick="seleccionar('1')">¿Como comprar?</a>
+            </li>
+            <li class="pregunta">
+                <a href="#2" onclick="seleccionar('2')">Envio</a>
+            </li>
+            <li class="pregunta">
+                <a href="#3" onclick="seleccionar('3')">Guia de talles</a>
+            </li>
+        </ul>
+    </section>
+    <section class="terminos_condiciones">
+        <section class ="condiciones">
+            <div class="info_formas_pago">
+                <p><b>TRANSFERENCIA</b>
+                    <i>Podes realizar tu compra online mediante transferencia. Contás con 3 hs. de corrido para realizar el pago 
+                    desde el momento en que realices la compra. La acreditación del pago son inmediatas y de confirmación 
+                    automática en nuestro sistema, pero pueden tener una demora de 30 minutos, y una vez acreditado se confirmará
+                    la compra, y te llegará un mail con la confirmación y acreditación de la misma.<br>                
+                    Es <b>IMPORTANTE</b> saber que hasta que no se haya acreditado el pago no se autorizará el armado del paquete, por 
+                    ende no estará listo para retiro, por favor no comprometa al staff y sea una persona amable.</i></p>
+            </div>
+        </section>
+        <section class="condiciones_pagos">
+            <div clas="contenedor_pagos">
+                <img src="./img/front/pagina.png" type="image" class ="medios_pago">
+                <img src="./img/front/tarjeta.png" type="image" class ="medios_pago">
+                <img src="./img/front/telefono-movil.png" type="image" class ="medios_pago">
+                <img src="./img/front/visa.png" type="image" class ="medios_pago">
+                <img src="./img/front/amex.png" type="image" class ="medios_pago">
+                <img src="./img/front/efectivo.png" type="image" class ="medios_pago">
+            </div>
+        </section>
+    </section>
+    <section class="titulo_contacto">
+        <h3>Seguinos en nuestras redes</h3>
+    </section>
+    <section class="contacto"> 
+         <section class="red_facebook">
+            <div class="facebook">
+                <a href="https://www.facebook.com/"><img src="./img/front/facebookN.png" type="image" class ="redes"></a>
+            </div>
+        </section>
+        <section class="red_instagram">
+            <div class="instagram">
+                <a href="https://www.instagram.com/"><img src="./img/front/instagramN.png" type="image" class ="redes"></a>
+            </div>
+        </section>
+        <section class="red_linkedin">
+            <div class="youtube">
+                <a href="https://www.linkedin.com/"><img src="./img/front/linkedinN.png" type="image" class ="redes"></a>
+            </div> 
+        </section>
+        <section class="red_youtube">
+            <div class="linkedin">
+                <a href="https://www.youtube.com/"><img src="./img/front/youtubeN.png" type="image" class ="redes"></a>
+            </div>           
+        </section>
+        <section class="red_whtasApp">
+            <div class="wahtsapp">
+                <a href="https://web.whatsapp.com/"><img src="./img/front/whatsappN.png" type="image" class ="redes"></a>
+            </div>           
+        </section> 
+    </section>
+    <section class="acerca_de">
+        <section class="titulo_telefono">
+            <h3>Contacto</h3>
+        </section>
+        <section class="titulo_ubicacion">        
+            <h3>Ubicación</h3>            
+        </section>        
+        <section class="telefono">
+            <ul>
+                <li class="lista" >
+                    <img src="./img/front/telefono-movil.png" type="image" class ="contactos">
+                    <i>3513000111</i>
+                </li>
+                <li class="lista">
+                    <img src="./img/front/ubicacion.png" type="image" class ="contactos">
+                    <i>Calle 9,Córdoba</i>
+
+                </li>
+                <li class="lista">
+                    <img src="./img/front/email.png" type="image" class ="contactos">
+                    <i>algunadireccion@codoacodo.com</i>
+                </li>
+            </ul>
+        </section>
+        <section class="ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.4749420937355!2d-64.18969121911584!3d-31.42858933044322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28ddf861391%3A0xc0fdcfc930551a76!2sPlaza%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1713400868971!5m2!1ses-419!2sar"
+                        width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </section>
+    <section class="copyright">
+        <p>Copyright © 2024 All Rights Reserved by Grupo 12 CaC</p>
+    </section>
+</footer>
+<script src="./js/maquetado.js"></script>
+<script src="./js/botones.js"></script>
+</body>
 </html>
