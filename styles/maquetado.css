@@ -10,6 +10,7 @@
         --color_transparente: transparent;
         --color_fondo_produccion: rgba(245, 245, 220, 1);
         --color_fondo_botones: rgba(197, 197, 145,1);
+        --color_fondo_botones: #c5c591;       
         --color_borde_productos: #e0e0e0;
         --color_fondo_productos: whitesmoke;
 }
@@ -1107,18 +1108,6 @@ body {
         transition: all 0.1s ease;
         cursor: pointer;
     }
-
-    .boton_filtro_1::before{
-        pointer-events: none;
-        cursor: default; 
-        box-shadow: 
-        3px 3px 3px 0 #7b7b7b inset,
-        -2px -2px 3px 0  #ffffff inset;
-
-    }
-
-
-
 
     .boton_filtro_1 img,
     .boton_filtro_2 img,

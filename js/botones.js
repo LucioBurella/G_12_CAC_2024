@@ -168,14 +168,13 @@ function restablece_botones() {
         let boton = document.getElementById(id);
         if (boton) {
             boton.disabled = false; 
-            boton.style.backgroundColor = 'rgba(197, 197, 145,0.5)';
-            boton.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.8),\
-            -2px -2px 5px rgba(255, 255, 255, 0.8)';
+            boton.style.backgroundColor = '#c5c591';
+            boton.style.boxShadow= "none";
+            boton.style.boxShadow.hover = '2px 2px 5px rgba(0, 0, 0, 0.8),\
+            -2px -2px 5px rgba(197, 197, 145,1)';
             boton.style.transition = 'all 0.1s ease;';
             boton.style.cursor = 'pointer';
             boton.style.color = 'black';
-
-            
-        }
+       }
     });
 }
