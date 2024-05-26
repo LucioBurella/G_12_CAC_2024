@@ -83,57 +83,48 @@ const teclas_Programas = (e) => {
             }, 250);
         case "remeras":
             borra();
-            setTimeout(() => {
-                console.log('Se ha hecho click en el botón de listar remeras');
-                alert('Presionaste boton listar remeras')
-                const boton = document.getElementById('reme');
-                boton.disabled = true; // Deshabilita el botón
-
-            }, 250);
+            restablece_botones();
+            disabled_boton('remeras');
+            //setTimeout(() => {
+            //console.log('Se ha hecho click en el botón de listar remeras');
+            //alert('Presionaste boton listar remeras')
+            //}, 250);
             break;
         case "pantalon":
             borra();
-            setTimeout(() => {
-                console.log('Se ha hecho click en el botón de listar pantalones');
-                alert('Presionaste boton listar pantalones')
-            }, 250);
+            restablece_botones();
+            disabled_boton('pantalon');
             break;
         case "camisa":
             borra();
-            setTimeout(() => {
-                console.log('Se ha hecho click en el botón de listar camisas');
-                alert('Presionaste boton listar camisas')
-            }, 250);
+            restablece_botones();
+            disabled_boton('camisa');
             break;
         case "camperas":
             borra();
-            setTimeout(() => {
-                console.log('Se ha hecho click en el botón de listar camperas');
-                alert('Presionaste boton listar camperas')
-            }, 250);
+            restablece_botones();
+            disabled_boton('camperas');
             break;
         case "gorras":
             borra();
-            setTimeout(() => {
-                console.log('Se ha hecho click en el botón de listar camperas');
-                alert('Presionaste boton listar camperas')
-            }, 250);
+            restablece_botones();
+            disabled_boton('gorras');
             break;
         case "accesorios":
             borra();
-            setTimeout(() => {
-                console.log('Se ha hecho click en el botón de listar camperas');
-                alert('Presionaste boton listar camperas')
-            }, 250);
+            restablece_botones();
+            disabled_boton('accesorios');
             break;
         case "logo_inicio":
             setTimeout(() => {
                 console.log('Se ha hecho click en el logo de la tienda');
                 borra();
+                restablece_botones();
                 carga_completa();
             }, 250);
             break;   
         case "carrito":
+            restablece_botones();
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion');
                 alert('Se ha hecho click en el botón del carrito de compras esta seccion esta en construccion');
@@ -154,4 +145,37 @@ function meGusta(prenda){
     } else {
       fav1.src = './img/front/me_gusta_vacio.png';
     }
+}
+   
+function disabled_boton(id){
+    let boton = document.getElementById(id);
+    boton.disabled = true;
+    boton.style.backgroundColor = 'gray';
+    boton.style.boxShadow = ' 3px 3px 3px 0 #7b7b7b inset,\
+    -2px -2px 3px 0  #ffffff inset';
+    boton.style.cursor = 'default';
+    boton.style.userSelect = 'none';
+    boton.style.color = 'white';
+}
+function restablece_botones() {
+    const ids = ['remeras',
+                'pantalon', 
+                'camisa', 
+                'camperas', 
+                'gorras', 
+                'accesorios'];
+    ids.forEach(id => {
+        let boton = document.getElementById(id);
+        if (boton) {
+            boton.disabled = false; 
+            boton.style.backgroundColor = 'rgba(197, 197, 145,0.5)';
+            boton.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.8),\
+            -2px -2px 5px rgba(255, 255, 255, 0.8)';
+            boton.style.transition = 'all 0.1s ease;';
+            boton.style.cursor = 'pointer';
+            boton.style.color = 'black';
+
+            
+        }
+    });
 }
