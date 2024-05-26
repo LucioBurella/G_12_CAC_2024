@@ -86,6 +86,8 @@ const teclas_Programas = (e) => {
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de listar remeras');
                 alert('Presionaste boton listar remeras')
+                const boton = document.getElementById('reme');
+                boton.disabled = true; // Deshabilita el botón
 
             }, 250);
             break;
