@@ -206,19 +206,19 @@
             <input type="text" name="apellido" id="apellido" placeholder="ingrese apellido" class="input_login">
             <input type="text" name="nombre" id="nombre" placeholder="ingrese nombre" class="input_login">
             <input type="text" name="dni" id="dni" placeholder="ingrese DNI" class="input_login">
-            <input type="date" name="nacimiento" id="nacimiento" placeholder="ingrese fecha de nacimiento" class="input_login">
+            <input type="datetime-localme="nacimiento" id="nacimiento"  class="input_login">
             <input type="text" name="email" id="email" placeholder="ingrese email" class="input_login">
             <input type="text" name="password" id="password" placeholder="ingrese password" class="input_login">
         </div>
         <div class="formulario_registro_boton_aceptar">
-            <button type="button" name="login_aceptar" id="" class="btns">Grabar</button>
+            <button type="button" name="login_aceptar" id="login_aceptar" class="btns">Grabar</button>
         </div>
         <div class="formulario_registro_boton_cancelar">
-            <button type="button" name="login_cancelar" id="" class="btns">Volver</button>
+            <button type="button" name="login_cancelar" id="login_cancelar" class="btns">Volver</button>
         </div>
     </div>  
     <div class="distintas_preguntas_contenedor">
-        <div class="dudas" style="display:none" name="comprar" id="comprar" onclick="seleccionar(this.id)">
+        <div class="dudas" style="display:none" id="comprar" onclick="seleccionar(this.id)">
             <p><b>¿CÓMO COMPRAR?</b><br>
                 <b>1.</b> Selecciona los productos que te interesan determinando el talle y la cantidad, luego añadilos a tu carrito.                 
                 Si querés agregar más productos, podés seguir navegando y repetir el proceso.                 
@@ -227,12 +227,12 @@
                 <b>3.</b> Seguí las instrucciones completando los campos pedidos (información de facturación, información del envío, método de envío, medio de pago, revisión del pedido) y hacé click en el botón "Continuar".
                 Serás redirigido a una ventana de confirmación con los medios de pago habilitados.</p>
         </div>
-        <div class="dudas" style="display:none" name="envio"id="2" onclick="seleccionar(this.id)">
+        <div class="dudas" style="display:none" id="2" onclick="seleccionar(this.id)">
             <p><b>Envio</b><br> Tiempo para que un pedido esté listo para ser retirado y enviado puede variar entre 24 a 48 hs. hábiles. Es fundamental que el pago esté confirmado para que el pedido figure como listo para retirar. 
                 Para asegurarte que tu pedido esta listo, revisá el estado del mismo con el número de seguimiento que te enviamos al email. Si realizaste más de una compra, los envíos deben gestionarse por separado incluso si son por el mismo medio, es decir, no es posible unificar envíos.  
                 El medio de envío va a depender de la ubicación a la que necesites realizar tu envío:</p>
         </div>
-        <div class="dudas" style="display:none" name="guia_talle" id="3" onclick="seleccionar(this.id)">
+        <div class="dudas" style="display:none" id="3" onclick="seleccionar(this.id)">
             <p><b>¿CÓMO TOMAR LAS MEDIDAS DE MI CUERPO? </b><br>
                 Contorno de busto: Toma la medida del pecho por donde el busto sea mayor, pasando por la espalda, hasta volver al punto de partida.                 
                 Contorno de cintura: Contornear la cintura justo debajo de las costillas, pasando por la espalda, hasta volver al punto de partida.                
@@ -296,12 +296,12 @@
         </section>
         <section class="condiciones_pagos">
             <div clas="contenedor_pagos">
-                <img src="./img/front/pagina.png" type="image" class ="medios_pago">
-                <img src="./img/front/tarjeta.png" type="image" class ="medios_pago">
-                <img src="./img/front/telefono-movil.png" type="image" class ="medios_pago">
-                <img src="./img/front/visa.png" type="image" class ="medios_pago">
-                <img src="./img/front/amex.png" type="image" class ="medios_pago">
-                <img src="./img/front/efectivo.png" type="image" class ="medios_pago">
+                <img src="./img/front/pagina.png" class ="medios_pago" alt="Medios de pago">
+                <img src="./img/front/tarjeta.png" class ="medios_pago" alt="Medios de pago">
+                <img src="./img/front/telefono-movil.png" class ="medios_pago" alt="Medios de pago">
+                <img src="./img/front/visa.png" class ="medios_pago" alt="Medios de pago">
+                <img src="./img/front/amex.png" class ="medios_pago" alt="Medios de pago">
+                <img src="./img/front/efectivo.png" class ="medios_pago" alt="Medios de pago">
             </div>
         </section>
     </section>
@@ -311,27 +311,27 @@
     <section class="contacto"> 
          <section class="red_facebook">
             <div class="facebook">
-                <a href="https://www.facebook.com/"><img src="./img/front/facebookN.png" type="image" class ="redes"></a>
+                <a href="https://www.facebook.com/"><img src="./img/front/facebookN.png" class ="redes" alt="Redes"></a>
             </div>
         </section>
         <section class="red_instagram">
             <div class="instagram">
-                <a href="https://www.instagram.com/"><img src="./img/front/instagramN.png" type="image" class ="redes"></a>
+                <a href="https://www.instagram.com/"><img src="./img/front/instagramN.png" class ="redes" alt="Redes"></a>
             </div>
         </section>
         <section class="red_linkedin">
             <div class="youtube">
-                <a href="https://www.linkedin.com/"><img src="./img/front/linkedinN.png" type="image" class ="redes"></a>
+                <a href="https://www.linkedin.com/"><img src="./img/front/linkedinN.png" class ="redes" alt="Redes"></a>
             </div> 
         </section>
         <section class="red_youtube">
             <div class="linkedin">
-                <a href="https://www.youtube.com/"><img src="./img/front/youtubeN.png" type="image" class ="redes"></a>
+                <a href="https://www.youtube.com/"><img src="./img/front/youtubeN.png" class ="redes" alt="Redes"></a>
             </div>           
         </section>
         <section class="red_whtasApp">
             <div class="wahtsapp">
-                <a href="https://web.whatsapp.com/"><img src="./img/front/whatsappN.png" type="image" class ="redes"></a>
+                <a href="https://web.whatsapp.com/"><img src="./img/front/whatsappN.png"  class ="redes" alt="Redes"></a>
             </div>           
         </section> 
     </section>
