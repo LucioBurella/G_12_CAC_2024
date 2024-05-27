@@ -204,6 +204,17 @@ https://lucioburella.github.io/G_12_CAC_2024/
 <br>
 
 
+
+
+## Prueba dinamica de errores 
+
+
+- Prueba de errores en  https://validator.w3.org/
+<br>
+
+![Captura de pantalla 1](./img/Maqueta%2040.png)
+<br>
+
 ## Instalación y uso
 1. Clona este repositorio: `git clone https://github.com/LucioBurella/G_12_CAC_2024.git`
 2. Abre el archivo `index.html` en tu navegador web.
