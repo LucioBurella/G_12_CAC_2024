@@ -36,6 +36,27 @@ function carga_registro() {
     }
 }
 
+function carga_login() {
+    try {
+        const productos = document.querySelector('.productos');
+        productos.style.gridTemplateColumns = '20% 40% 20%';
+
+        const formularioRegistroContenedor = document.querySelector('.formulario_login_contenedor');
+        formularioRegistroContenedor.style.gridArea = '1 / 2 / 2 / 3';
+
+        const sitElements = document.querySelectorAll(".productos,\
+        .formulario_login_contenedor,\
+        .formulario_login_titulo,\
+        .formulario_registro_input");
+
+        sitElements.forEach(element => {
+            element.style.display = "grid";
+        });
+    } catch (error) {
+        console.log("Error en carga de pantalla " + error);
+    }
+}
+
 function borra() {
     try {
         const sitElements = document.querySelectorAll(".prenda_1,\

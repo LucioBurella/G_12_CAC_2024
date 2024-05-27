@@ -4,6 +4,7 @@ const teclas_Programas = (e) => {
 			setTimeout(() => {
                 console.log('Se ha hecho click en el botón de inicio');
                 borra();
+                restablece_botones();
                 carga_completa();
 			}, 250);
 			break;
@@ -31,7 +32,8 @@ const teclas_Programas = (e) => {
             setTimeout(() => {
                 console.log('Se ha hecho click en el botón de login');
             borra();
-            carga_registro();
+            restablece_botones();
+            // carga_registro();
             }, 250);
             break;
         case "buscar":
